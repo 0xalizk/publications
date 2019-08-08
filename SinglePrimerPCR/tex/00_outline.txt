@@ -1,0 +1,19 @@
+abstract:
+	-pcr is everywhere
+	-primers must be software-designed, not always accurate => pcr optimization (pcr matrix)
+	-choice of primer location is limited (regions of FB BP must be similar gc etc)
+	-here we present: 
+
+intro and results:
+	expand abstract
+	schematic figures
+	gel figures
+method:
+	template preparation (synthesis, splint-ligation, pcr)
+	IVT 
+	plasmid (digestion, insert (ligation), pcr)
+	
+materials:
+	IDT synthesis
+	plasmid
+	NEB (T7, phusion, 

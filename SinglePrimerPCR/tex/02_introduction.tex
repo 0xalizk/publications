@@ -1,0 +1,49 @@
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Paper_04/tex/00_preamble.tex}
+\graphicspath{{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Paper_04/fig/}}
+\setlength\fboxsep{0pt} % figure border padding
+\setlength\fboxrule{1pt} % figure outline
+\usepackage[percent]{overpic}
+\usepackage[export]{adjustbox}
+%begin_custom_header
+%end_custom_header
+\begin{document}
+%begin_custom_content
+\newpage
+%\section{Introduction} \label{intro}			
+		%\parbox[t]{\textwidth}{At the intersection”}
+		
+		\begin{comment}
+				\begin{figure}[h]
+					%\begin{overpic}[width=0.5\textwidth,grid,tics=10]{algorithmic_workflow/algorithmic_workflow.pdf}
+					%\begin{overpic}[width=16.5cm, height=15.5cm, right]{algorithmic_workflow/algorithmic_workflow_cropped.pdf}
+					\includegraphics[scale=.5,center]{01_schematics/aseq.png} 
+					%\includegraphics[scale=.3]{02.degree-dist/ER_Vinayagam.png}
+					\caption{schematic}
+					\label{fig:schematic}
+				\end{figure}
+		\end{comment}
+		\begin{figure}[H]
+			\begin{table}[H]
+				\arrayrulecolor[HTML]{ffffff}% midrule is used to create vertical space between rows, make it white. blue = 0a84f7
+				\centering
+				% multirow is used to control vertical alignment within a cell: http://tex.stackexchange.com/questions/328793/table-custom-cell-vertical-alignment
+				\begin{tabular}{{  | @{}p{.1cm} | p{12.5cm}@{} |   }}				
+					\toprule
+					\multirow{-4}{\linewidth}{\footnotesize{(1)}} & \includegraphics[scale=.25, center]{03_method/m1.png} 
+					\\ \midrule\midrule\midrule\midrule  % midrule is thicker than \hline
+					\multirow{-4}{\linewidth}{\footnotesize{(2)}} & \includegraphics[scale=.25, center]{03_method/m2.png} 
+					\\ \midrule\midrule\midrule\midrule  
+					\multirow{-4}{\linewidth}{\footnotesize{(3)}} & \includegraphics[scale=.25, center]{03_method/m3.png}  
+					\\ \midrule\midrule\midrule\midrule  
+					\multirow{-1}{\linewidth}{\footnotesize{(4)}} & \includegraphics[scale=.25, center]{03_method/m4.png} 
+					\\ \bottomrule
+				\end{tabular}
+			\end{table}		
+			\caption{Construction of dsDNA templates}
+			\label{fig:method}	
+		\end{figure}
+
+		
+%end_custom_content
+\printbibliography
+\end{document}

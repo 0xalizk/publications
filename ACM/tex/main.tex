@@ -1,0 +1,119 @@
+\documentclass[sigconf]{acmart}
+
+\fancyhead{} %removes the header on top of each page
+\acmPrice{15.00}
+
+\copyrightyear{2017} 
+\acmYear{2017} 
+\setcopyright{rightsretained} 
+\acmConference{ACM-BCB '17}{August 20-23, 2017}{Boston, MA, USA}\acmDOI{10.1145/3107411.3107453}
+\acmISBN{978-1-4503-4722-8/17/08}
+
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/00_preamble.tex}
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/01_abstract.tex}
+
+
+\begin{document}
+\settopmatter{printacmref=false, printfolios=false} % removes "ACM Reference Format" block (first page)
+\title{Computational Intractability Generates the Topology of Biological Networks}
+%\titlenote{Produces the permission block, and copyright information}
+%\subtitle{Extended Abstract}
+%\subtitlenote{The full version of the author's guide is available as \texttt{acmart.pdf} document}
+
+
+\author{Ali Atiia}
+%\orcid{1234-5678-9012}
+\affiliation{\institution{School of Computer Science \\ McGill University}
+  %\streetaddress{P.O. Box 1212}
+  %\city{Dublin} 
+  %\state{Ohio} 
+  %\postcode{43017-6221}
+}
+\email{atiia@cs.mcgill.ca}
+\author{Corbin Hopper}
+\affiliation{\institution{School of Computer Science \\ McGill University}}
+\email{corbin.hopper@mail.mcgill.ca}
+
+\author{Jérôme Waldispühl}
+\affiliation{\institution{School of Computer Science \\ McGill University}}
+\email{jeromew@cs.mcgill.ca}
+
+% The default list of authors is too long for headers}
+\renewcommand{\shortauthors}{Atiia et al.}
+
+% from http://dl.acm.org/ccs.cfm
+
+ \begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003033.10003034.10003035</concept_id>
+<concept_desc>Networks~Network design principles</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10010405.10010444.10010087.10010091</concept_id>
+<concept_desc>Applied computing~Biological networks</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10010405.10010444.10010095</concept_id>
+<concept_desc>Applied computing~Systems biology</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10010405.10010444.10010450</concept_id>
+<concept_desc>Applied computing~Bioinformatics</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10002950.10003624.10003625.10003630</concept_id>
+<concept_desc>Mathematics of computing~Combinatorial optimization</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10003752.10003777.10003778</concept_id>
+<concept_desc>Theory of computation~Complexity classes</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10003752.10003809.10003716.10011136.10011797.10011799</concept_id>
+<concept_desc>Theory of computation~Evolutionary algorithms</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010169.10010170</concept_id>
+<concept_desc>Computing methodologies~Parallel algorithms</concept_desc>
+<concept_significance>100</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Networks~Network design principles}
+\ccsdesc[500]{Applied computing~Biological networks}
+\ccsdesc[500]{Applied computing~Systems biology}
+\ccsdesc[500]{Applied computing~Bioinformatics}
+\ccsdesc[300]{Mathematics of computing~Combinatorial optimization}
+\ccsdesc[300]{Theory of computation~Complexity classes}
+\ccsdesc[300]{Theory of computation~Evolutionary algorithms}
+\ccsdesc[100]{Computing methodologies~Parallel algorithms}
+%
+\keywords{biological networks; computational intractability; Combinatorial optimization; evolutionary adaptations; systems biology; emergence}
+%
+\maketitle
+%
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/02_introduction.tex}
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/03_approach.tex}
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/04_results.tex}
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/05_results_additional.tex}
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/06_method.tex}
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Papers/Paper_08/tex/07_discussion.tex}
+
+\begin{acks} 
+	Computations were made on the supercomputing cluster Guillimin from McGill University, managed by Calcul Québec and Compute Canada. The operation of these supercomputers is funded by the Canada Foundation for Innovation (CFI), ministère de l’Économie, de la Science et de l’Innovation du Québec (MESI) and the Fonds de recherche du Québec - Nature et technologies (FRQ-NT).
+\end{acks}
+
+\bibliographystyle{ACM-Reference-Format}
+%\balance
+\bibliography{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/z-misc/zotero-library/better_bibtex} 
+\balance
+\end{document}

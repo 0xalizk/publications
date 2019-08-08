@@ -1,0 +1,61 @@
+%begin_custom_header
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Paper_04/tex/00_preamble.tex}
+\title {\large Single-Primer Polymerase Chain Reactions }
+\usepackage{authblk}
+\author[1]{Ali Atiia}
+%\author[2]{Silvia Vidal}
+%\author[4]{François Major}
+\author[1]{Jérôme Waldispühl}
+\renewcommand\Authfont{\fontsize{9}{14}\selectfont}
+\affil[1]{School of Computer Science, McGill University, Montreal, Canada}
+%\affil[2]{Research Centre on Complex Traits, McGill University, Montreal, Canada}
+%\affil[3]{National Institute of Informatics, Tokyo, Japan }
+%\affil[4]{Institute for Research in Immunology and Cancer, Montreal, Canada}
+\setcounter{Maxaffil}{0}
+\renewcommand\Affilfont{\fontsize{7}{14}\selectfont} % the second number determines spacing between lines
+%=================================================================================
+\date{}
+%end_custom_header
+%begin_custom_content
+\begin{document}
+	\maketitle
+	\begin{abstract}
+			
+		% \tiny, \scriptsize, \footnotesize, \small, \normalsize, \large, \Large, \LARGE, \huge, and \Huge.
+		
+		 Polymerase chain reaction (PCR) is an indispensable molecular biology technique
+		 used to selectively amplify a segment of DNA using a thermostable polymerase that extends two short oligonucleotides
+		 that complement the 3' ends of the target sequence. The annealing of the two primers
+		 to the target extremities at the same temperature is the most important factor in determining the success of the reaction,
+		 as misannealing of either or both to non-target regions (or to themselves, "primer-dimer") can lead to erroneous 
+		 ampilicons. Having different annealing temperatures can also hinder the success of the reaction, requiring the setting of the reaction
+		 annealing temperature to the lowest of the two which can also lead to various problems. Primer design has therefore emerged
+		 as one of the most important steps to ensure successful reactions with high yields. There exist many bioinformatic tools
+		 to help achieve that, but in practice some primer pairs may still not work well together. Furthermore, when the GC content of 
+		 the two extremeties are greatly different, it may become a difficult task to find a suitable primer pair, especially when
+		 the choice of primer locations is limited. For example, one primer at one extremity may be a T7 promoter while the other 
+		 is part of the coding sequence at another. Here we present a simple technique of inserting the complement of one primer into 
+		 one extremity, thereby allowing the use of one primer to anneal to both extremeties of the target ampilicon, thereby 
+		 eliminating the need to optimize the design or reaction conditions that suit two different primers. The involved procedure
+		 employ standard molecular biology procedure (phosphorylation, digestion, and ligation) and does not require
+		 any special sequence modification beside the insertion of one sequence. The method can simplify the engineering 
+		 and mass production of plasmids and custom in-vitro transcription templates (for sure in gene (protein) design for example).
+		 Designing the 2-way primer to have an annealing temperature equals to that of the extension also eliminates the need
+		 for an annealing step during the cycling program of a reaction, resulting in a significant reduction of total reaction time.  
+		 	
+		\begin{comment}	
+			applications:
+				de novo gene (protein) design 
+				plasmid preparations
+			
+			the diagnosis and monitoring of genetic diseases, identification of criminals (in the field of forensics), and studying the 
+			function of a targeted segment of DNA.
+		
+			a variety of applications.[4][5] These include DNA cloning for sequencing, DNA-based phylogeny, or functional analysis of 
+			genes; the diagnosis of hereditary diseases; the identification of genetic fingerprints (used in forensic sciences and DNA
+			paternity testing); and the detection of pathogens in nucleic acid tests for the diagnosis of infectious diseases.
+ 		\end{comment}
+	\end{abstract}
+%end_custom_content
+\printbibliography
+\end{document}

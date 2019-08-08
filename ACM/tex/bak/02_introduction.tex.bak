@@ -1,0 +1,303 @@
+%\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Paper_08/tex/00_preamble.tex}
+%begin_custom_header
+%\usepackage[backend=biber]{biblatex}
+%end_custom_header
+
+%\begin{document}
+%begin_custom_content
+%\newpage
+\section{Introduction} \label{intro}
+Biological networks (BNs) are graphs where nodes and edges represent bio-molecules (protein, DNA, RNA, or metabolites) 
+and interactions, respectively. 
+A BN describes interactions in a given physiological context: protein-protein, transcription factor-gene, or enzyme-metabolite interactions. 
+Virtually all BNs, regardless of organism or physiological context \cite{yu_high-quality_2008, simonis_empirically_2009, consortium_evidence_2011, neph_circuitry_2012, rajagopala_binary_2014, vinayagam_integrating_2014, stergachis_conservation_2014, yang_widespread_2016}, are rich in loosely connected "leaf" nodes, 
+with a small number of highly connected "hub" nodes.  More precisely, the percentage of genes having degree $d$ is exponentially inversely 
+proportional to $d$.
+We refer to this topology as majority-leaves minority-hubs (mLmH). 
+%with leaf nodes being those with degree 1, 2, .. $d_avg$, and hubs being $d_avg+1$, $d_avg+2$, ... $d_max$  with exponentially decreasing frequency.
+%We arbitrarily consider the average degree $d_avg$  as the split point between what is considered a leaf or hub node. 		
+The scale \cite{rolland_proteome-scale_2014} and quality \cite{yang_widespread_2016} of experimentally-validated interaction networks has been exponentially 
+increasing, but conclusive answers to fundamental questions
+about the emergence of their architectural properties remain elusive. 
+The widely popular \cite{perc_matthew_2014} scale-free (SF) model asserts that node degree frequencies in BNs follow a power-law distribution \cite{barabasi_emergence_1999}.
+The veracity of this assertion and the design principles it later inspired \cite{albert_error_2000, barabasi_network_2004}
+has however been seriously questioned \cite{fox_keller_revisiting_2005, tanaka_protein_2005, khanin_how_2006, clauset_power-law_2009, lima-mendez_powerful_2009}.		
+An important shortcoming of SF and other models \cite{bak_self-organized_1988} is that their respective higher-level abstractions do not account 
+for any functional aspects 
+in biological networks and as such provide no conclusive justification for the emergence of mLmH property \cite{alderson_contrasting_2010}. 
+%E. coli doesn't care about information flow in its regulatory network; it wants to be able to eat lactose when nothing else is around. http://bactra.org/notebooks/edge-of-chaos.html
+Gene duplication has been suggested \cite{vazquez_modeling_2002, bhan_duplication_2002} as a mechanism that leads to mLmH, but that does not explain
+"intermediate states that necessarily exist in the context of actual populations" \cite{lynch_evolution_2007}.
+Key predictions of SF model in particular have been contradicted by experimental evidence \cite{hahn_molecular_2004,fraser_evolutionary_2002}. The highly-optimized tolerance (HOT) model aims to capture evolutionary pressure forces that result in the emergence of mLmH \cite{carlson_highly_1999}, arguing the latter is the result of "tradeoffs between yield, cost of resources, and tolerance to risks". The fundamental question however still remains: on what basis can these tradeoffs be considered universal? An explanatory model may well provide sufficient conditions, but they are not necessary unless there is a "concrete underlying theory to support it" \cite{stumpf_critical_2012}.  Simulated HOT systems  are robust against "designed-for uncertainties" \cite{carlson_highly_1999},  rendering  the applicability of the model in biological context (where there is no design) problematic. 
+%There has been attempts to amend the SF model \cite{papadopoulos_popularity_2012} and justify it relevance based
+%
+In the absence of a convincing theory that justifies the emergence of mLmH (and rules out other plausible hypotheses), another radical hypothesis has also been proposed: 
+system-level traits may be mere byproducts of non-adaptive evolutionary forces such as mutation and genetic drift \cite{lynch_frailty_2007, papp_critical_2009, sorrells_making_2015}. The 
+latter view effectively questions the scientific merit of systems biology itself. 
+
+In this work, we model the evolutionary pressure on BNs to rewire themselves as a computational optimization problem. 
+An interaction between two genes can, at some point in evolutionary time, become advantageous or detrimental to the overall
+fitness of the organism. Under strong evolutionary pressure, it can become critical for the system to conserve (delete)
+some genes in order to fixate beneficial (cleanse detrimental) interactions. The optimization question is: which genes to conserve and 
+which to delete so as to maximize (minimize to a threshold) the overall total number of beneficial (detrimental) interactions?
+If every gene is engaged  in only beneficial (detrimental)
+interactions, the answer is clear and no optimization search is needed. 
+However,  some or all genes  can be "ambiguous": they are engaged in both beneficial and damaging
+interactions, and therefore a combinatorial optimization search is needed to identify the subset of genes that should ideally be conserved (deleted)
+so that the overall total number of beneficial interactions is maximal (minimal to a threshold).  
+
+Biological systems do not employ sophisticated search algorithms from one generation to the next: 
+Nature's  algorithm is simply successive iterations of random variation followed by non-random selection (RVnRS) \cite{carvunis_proto-genes_2012}. However, 
+the number of RVnRS iterations needed before a network's connectivity profile has been sufficiently transformed to a healthy state
+can, depending on the topology of the network, be hopelessly exponential. 
+Our results show that simulating evolutionary pressure on a population of random networks, and repeatedly selecting those
+that produce easy instances of this problem (mainly, those having less ambiguous genes),  leads  to networks with mLmH property.
+The degree distribution of the evolved synthetic networks is compared against real BNs from various phylogenetically-distant organisms. 
+The evolved networks quickly acquire mLmH property and end up having almost identical degree distribution to real networks of equal size (number of nodes and edges). 
+
+The presented results highlight the fact that system-level (software) traits can emerge after successive iterations of 
+RVnRS over long stretches of evolutionary time. 
+It is important to note that the implication here is not that natural selection acts directly
+on network topologies. Rather, the
+evolutionary advantageous mLmH topology is a soft property of the overall inter-connectivity between selected-for genes (alleles).
+The presented evolutionary algorithm simulates the variation part of the RVnRS process by introducing random changes to the interaction network's profile
+at each generation: (1) a gene may be invented  and/or (2) two interacting (non-interacting) genes may cease (begin) to interact due to mutation.
+Evolutionary pressure is simulated by designating some interactions in the network as advantageous and others disadvantageous at a given point (generation) in evolutionary time, and 
+we refer to such arbitrary designation as an "Oracle advice" (OA).
+Subsequently, the fitness of the network as a whole is judged by the extent to which it can adapt to such pressure.
+Adaptability is quantified by how quickly the process of RVnRS can ultimately 
+invent or alter the connectivity profile of genes
+in order to fixate (cleanse) beneficial (detrimental) interactions network-wide. Clearly the less ambiguous genes there are
+(on average over many instances of OAs) the faster  RVnRS can transform the network away from a deleterious and into a healthier state (minimal damaging interactions). 
+
+The model is simple and general enough to avoid
+symbolic bloat and artificial complexity, but reasonably specific enough to capture the reality of BNs being constantly under pressure to change in response to 
+changing environments. More importantly, it provides \textit{sufficient} conditions for the emergence of mLmH and, 
+because the inherent intractability of NP-hard problems is (assuming P$\neq$NP) universally insurmountable, 
+it explains why the emergence of mLmH is \textit{necessary}.  If BNs were more sparse (all genes of degree 1 in the extreme case), all genes are unambiguous 
+under any scenario of evolutionary pressure but the 
+genome size explodes ($d$ specialty genes would be needed to carry out the function of a single gene performing $d$ interactions). 
+On the other hand, if they were more dense (less genes but higher connectivity per gene), the organism would drown in 
+computational intractability: an exponential number of RVnRS iterations would be needed to ultimately
+invent the right set of genes whose \textit{connectivity} maximizes (minimizes) beneficial (detrimental) interactions vis-à-vis the current evolutionary pressure scenario. 
+The mLmH topology is the middle ground between the two extremes: essential functions are concentrated in hub genes that are unlikely to be detrimental 
+in and of themselves. Regulating around them however, is where constant optimization is needed (e.g. micro-RNA regulation \cite{gerstein_architecture_2012}). 
+In the presence of an evolutionary pressure, such optimization  (through iterations of RVnRS) can be done at minimal cost
+by experimenting with loosely connected leaf genes at the periphery of the network  \cite{kim_positive_2007}.
+%mLmH is a balance between the two: essential cellular functions which affect
+%a large number of genes (such as phosphorylation) are concentrated in hub genes, which
+%
+%The more abstract models of "self-organized criticality"  and "edge of chaos" neither of which provides the necessary conditions
+%for the emergence of mLmH nor addresses the functional specificity of biological systems \cite{alderson_contrasting_2010}. 
+%The highly-optimized tolerance model has shown remarkable accuracy in explaining the topology of Internet routing hardware network,
+%but due to its dependence on identifyin \
+%
+%
+%
+\begin{comment}       
+        Others have pointed out that power-law distributions are the norm, the latter can emerge in complex systems simply as a result of 
+        variability [53][48][45] and as such
+        does not in and of itself provide an explanation of the underlying driving forces shaping the topological properties of system's component. 
+        The functional aspects of biological systems are 
+        
+        %Other proposed models of complex networks generally include the more abstract  \textit{edge of chaos} (EOC) and and \texit{self-organized criticality} (SOC). 
+        SF, EOC and SOC  not only make different assumptions, lead to conflicting results, and do not account for functional  specificities \cite{alderson_contrasting_2010}. 
+        The highly-optimized tolerance (HOT) model takes into account the      
+\end{comment}
+\begin{comment}
+the probability in PA is arbitrary, 
+
+\cite{alderson_contrasting_2010}"Contrasting Views of Complexity and Their Implications For Network-Centric Infrastructures":
+	Power laws (or scaling distributions) have been another source of confusion because of their opposite interpretations and incompatible statistical treatment. 
+	In the NSCN and modern physics literature, power laws are viewed as “signatures” of specific mechanisms, namely, critical phase transitions [41] and preferential 
+	growth [43]		
+
+	This view suggests that the mere presence of power laws alone implies nothing about an underlying mechanism, nor does it require special explanation 
+	beyond high variability (see modern reviews [51], [52] and related discussions [45], [48], [53]).
+	
+	\cite{willinger_more_2004} W. Willinger, D. Alderson, J. Doyle, and L. Li, “More ‘normal’ than nor- mal: Scaling distributions and complex systems,” in Proc. Winter Simul. Conf., 2004, pp. 130–141.
+	\cite{fox_keller_revisiting_2005} E. Keller, “Revisiting ‘scale-free’ networks,” Bioessays, vol. 27, no. 10, pp. 1060–1068, Oct. 2005.
+	\cite{li_towards_2005} L.Li,D.Alderson,J.Doyle,andW.Willinger,“Towardsatheoryofscale- free graphs: Definition, properties, and implications,” Internet Math., vol. 2, no. 4, pp. 431–523, 2005.
+	
+	High variability can arise naturally as the result of highly organized/optimized tradeoffs in the design of a variety of systems [54]–[57], and thus, 
+	for high-technology and biological systems, power laws serve as the natural statistical null hypotheses for the high variability in RYF systems [15].
+
+	However, on almost every conceivable dimension, NSCN and organized views of complexity are not merely different but opposite. 
+	This can be seen in the books on EOC, SOC, and SFN
+	
+	EOC SOC SFN pay no attention to function
+
+"The “robust yet fragile” nature of the Internet":
+	Nevertheless, alternative approaches to modeling the Internet often make extremely different assumptions and derive opposite conclusions about 
+	fundamental properties of one and the same system.
+	.	
+	One consistent result of the HOT framework has been that once functional performance and robustness tradeoffs are considered, then in a variety of toy 
+	models engineering design (7) or biological evolution (9, Tanaka) easily generates power laws. 
+"Scale-free networks in cell biology" by Réka Albert: 
+	however, such a picture [HOT, in "Scale-Rich Metabolic Networks", Tanaka] does not seem to explain the frequency of intermediate degrees.
+"Critical Truths About Power Laws":
+	The power law reported for allometric scaling stands out as genuinely good (see the figure) (5): Not only is there a sound theory underlying why there should be a power-law relationship between body size x and metabolic performance y, but this relationship has been supported empirically over many orders of magnitude (from bacteria to whales). The clear dependence of various biological characteristics on body size is, of course, insufficient by itself to infer a causal relationship, but few people would dispute the reality of such a relationship.
+
+https://en.wikipedia.org/wiki/Self-organized_criticality:
+	"Many individual examples have been identified since [SOC] original paper, but to date there is no known set of general characteristics 
+	 that *guarantee* a system will display SOC."
+
+\end{comment}
+\begin{comment}
+		
+		Simulating hypothetical evolutionary pressure on real BNs results in instances of this problem
+		which are then solved to optimality.		
+		The optimal solution of each instance describes which subset of genes should be conserved and which 
+		should be deleted, so as to maximize (minimize) the total number of beneficial (damaging) interactions. 
+		We analyze these instances, and their optimal solution vectors, and compare that against random
+		instances as well as instances obtained form Erdős–Rényi  networks having the same number of nodes and edges as 
+		the real BN. 
+		Analytically, with a beneficial hub gene of degree $D$,
+		the network would reach the optimal solution in less iterations (random variations followed by non-random selection)	
+		than it would have with two or more genes with degrees $d_1, d_2, \dots$ where $d_1 + d_2+\dots = D$. In other words, it is more 
+		computationally efficient to have, say one phosphatase, that 
+		interacts with $n$ other genes as opposed to having two specialty phosphatases each handling a subset of those genes.
+		On the other hand,
+		less optimization is needed when instances have a large number of nodes with minimal degree (leaf nodes), 
+		since they are more likely to be either beneficial or damaging interactions but not both, and as such need not be included
+		in the optimization search.
+		For example, a leaf gene involved in only one interaction with a single other gene (i.e. degree 1) 
+		can either be totally beneficial or totally damaging, but not both, and as such there is no ambiguity as to whether it 
+		should be conserved or deleted under a given evolutionary pressure. 
+				
+		
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+		
+		Molecular interaction networks are typically modeled as graphs where nodes signify proteins, nucleic acids, or metabolites 
+		and edges signify interactions. The steady increase in scale and quality of experimentally validated molecular interaction 
+		data has not been matched with theoretical progress towards deciphering the underlying principles that have shaped the evolution of 
+		these networks into their observed structure. Studies purporting to uncover these universal principles have been controversial 
+		(see for example \cite{barabasi_network_2004, fell_small_2000, albert_error_2000, barabasi_emergence_1999} versus
+		\cite{khanin_how_2006, arita_metabolic_2004, balaji_uncovering_2006, fox_keller_revisiting_2005}, respectively). % [11, 22, 17, 11c] versus [18, 21, 7, 20]	
+		The general approach of such studies has been to empirically show  
+		that biological networks (BNs) possess a certain property (say, small-world topology or powerlaw-fitted degree distribution), 
+		and to subsequently advocate for a design principle around that property\cite{albert_error_2000}. But even if such properties were indeed conclusive, the question 
+		would remain: why do BNs possess this or that property? The statistical support of a property "is no evidence of universality without a concrete underlying theory to support it"\cite{_critical_????}. 
+		In particular, 
+		a universality claim should demonstrate (1)  the evolutionary advantage of a given property and (2) the impossibility (or at least improbability) of alternative hypotheses \cite{lynch_frailty_2007, lynch_evolution_2007}.  
+		The reverse process would likely be more fruitful: starting from a well-established
+		universal law, could one point to a property in biological systems that must have been the result of that law imposing its constraints on their
+		evolution? It is recognized that there is a need to ground the study of BNs particularly, and systems biology generally, in
+		a solid theoretical foundation that allows for falsifiable predictive tool that can explain the observed properties of 
+		biological systems \cite{alderson_contrasting_2010}. 
+		 
+		 Evolution proceeds through the simple yet remarkably effective process of random variation and non-random selection, capable of producing 
+		 ever more complex
+		 and robust biological systems that overtime become well-adapted to their environments. 
+		 %We do not suggest here that there is a conscious "optimization"
+		 We pose a hypothetical question from the 
+		 vantage point of a passive observer in possession of diagnostic 
+		 knowledge of the current state of a biological system 
+		 that is under some evolutionary pressure to change. This hypothetical knowledge describes what genes are (dis)-advantageous for the system. 
+		 With this knowledge, an  interaction is deemed beneficial if it's promotional (inhibitory) towards an
+		 advantageous (disadvantageous) gene, and detrimental if promotional (inhibitory) towards a disadvantageous (advantageous) gene. 
+		 Let the benefit (damage) score of each gene $g_i$ 
+		 be equal to the sum of beneficial (detrimental) interactions that $g_i$ is \textit{projecting onto} or \textit{attracting
+		 from} other genes in the interaction network, then there can be some genes with a non-zero score for both benefit and damage, and the question we pose is: 
+		 how hard of a computational
+		 problem would it be, for the observer, to determine the optimal immediate "next-move" for the system, i.e. which genes to conserve and which to delete, 
+		 such that the overall total number of beneficial (detrimental) interactions is maximal (minimal)? 
+		 We refer to the observer's knowledge as an "Oracle advice" (OA) on the network's genes (nodes).  
+	 
+		 Figure \ref{intro_figure} shows a hypothetical small interaction network of 7 genes, with promotional and inhibitory interactions denoted by arrows 
+		 and bars, respectively. Such a network can equivalently be represented as an adjacency matrix (right in Figure \ref{intro_figure}), where a non-zero entry 
+		 in row $i$ column $j$ implies gene $g_i$ interacts with $g_j$ by either promoting (+1) or inhibiting it (-1). 
+		 The benefit (damage)  score of $g_i$ is the sum of beneficial (detrimental) interactions it is projecting onto 
+		 or  attracting from  other genes (counting absolute values along row $i$ (projection) and column $i$ (attraction)). Genes that have zero benefit or damage score 
+		 (respectively $g_7$ and $g_5$ in this example)
+		 are clearly better off conserved (deleted). However, among genes with non-zero benefit and damage scores, an optimization search is needed
+		 to determine the optimal action (conserve and delete) that maximizes (minimizes) the overall total number of beneficial  (detrimental) interactions as possible. 
+		 Assuming a certain threshold of tolerable 
+		 detrimental interactions = 3 for example, the optimal evolutionary trajectory would be to conserve $g_2,  g_5$ and $g_6$, and delete $g_1, g_3,$ \textbf{$g_4$} and $g_7$. 
+
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+        
+        In this work we approach the study of the evolution BNs from the perspective
+		of computational complexity, by formally defining the above problem and empirically studying random instances resulting from generating  
+		hypothetical OAs on a real BN \cite{vinayagam_integrating_2014} (part of the protein-protein interactions (PPIs) of \textit{Drosophila melanogaster}). 
+		This computational optimization problem is shown to be fundamentally 
+		hard (NP-hard) which means, assuming P $\neq$ NP \cite{fortnow_status_2009, aaronson_guest_2005}, there does not exist an 
+		algorithm that can solve all instances efficiently (using computing resources that are always linearly proportional to 
+		the size of the instance). An optimal solution of an instance reveals, to the observer, the subset of 
+         genes that should be conserved (deleted) at this point in evolution so as to maximize (minimize) the total number of beneficial (detrimental) interactions.
+         While biological systems do not employ sophisticated search algorithms to determine the optimal conserve/delete
+		actions from one generation to the next, we can empirically show that 
+		instances obtained from the real BN are easier to satisfy, as characterized by various measures, 
+         and that such computational adaptability (circumvention of computational intractability) 
+         is a consequence of two well-known properties of BNs' topologies: a small minority 
+         of highly connected hub genes, and an overwhelming majority of loosely connected leaf genes.        
+         A hub gene can single-handedly contribute a large portion of the total beneficial interactions, allowing for
+         the packing of more beneficial interactions with less genes to conserve/delete. On the other hand, the large number of leaf genes (small degree) reduces
+         instance size, since such genes are more likely to be either beneficial or detremintal but not both, 
+         and therefore need not be considered in the (computationally costly) optimization search. 
+         For example, a leaf gene involved in only one interaction with a single other gene (i.e. its degree is 1) 
+		can either be totally beneficial or totally detrimental, and as such there is no ambiguity as to whether it 
+		should be conserved or deleted under a given evolutionary pressure. 
+         In light of the ongoing debate \cite{lima-mendez_powerful_2009-1}  around the evolutionary advantage of structural properties of biological networks (BNs) and the universal laws that have shaped 
+         their evolution,  the presented results indicate the
+         combination of few-hubs/many-leaf properties minimizes the computational costs of rewiring the interaction network in response to 
+         an evolutionary pressure to change, indicating that the topology of BNs may have been a selected-for adaptation to circumvent computational intractability.
+        
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+		
+		Simulating hypothetical evolutionary pressure on real BNs results in instances of this problem
+		which are then solved to optimality.		
+		The optimal solution of each instance describes which subset of genes should be conserved and which 
+		should be deleted, so as to maximize (minimize) the total number of beneficial (detremintal) interactions. 
+		We analyze these instances, and their optimal solution vectors, and compare that against random
+		instances as well as instances obtained form Erdős–Rényi  networks having the same number of nodes and edges as 
+		the real BN. 
+		Analytically, with a beneficial hub gene of degree $D$,
+		the network would reach the optimal solution in less iterations (random variations followed by non-random selection)	
+		than it would have with two or more genes with degrees $d_1, d_2, \dots$ where $d_1 + d_2+\dots = D$. In other words, it is more 
+		computationally efficient to have, say one phosphatase, that 
+		interacts with $n$ other genes as opposed to having two specialty phosphatases each handling a subset of those genes.
+		On the other hand,
+		less optimization is needed when instances have a large number of nodes with minimal degree (leaf nodes), 
+		since they are more likely to be either beneficial or detrimental interactions but not both, and as such need not be included
+		in the optimization search.
+		
+	
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+	
+			At the intersection between biology and computer science lie two related areas of scientific inquiry. In one direction, in silico 
+			models of biological components/processes are used to gain insight into biology through algorithmics/statistics as exemplified in the 
+			field of bioinformatics. On the opposite direction, and since Adleman’s insightful paper [1], computational problems (algorithms) 
+			are modeled (implemented) using biological components (processes) in a line of research that has rapidly evolved into the field of 
+			molecular computing. The computability/complexity [2] theory has not, however, been applied for the decipherment of actual biological 
+			systems. Given that the field of systems biology still lacks a foundational theory that can enable rigorous treatment of biological 
+			systems in a holistic manner, the complexity theory of computer science is proposed here for that purpose. It is a theory about machines, 
+			and biological systems are considered as such. Given its epistemological independence of physics and statistics, complexity theory can 
+			provide new insights into the evolution and functioning of biological networks, especially that “the role that natural selection has in 
+			the evolution of network structure remains unknown [3].”
+	
+	\noindent\rule[0.5ex]{\linewidth}{1pt}
+	
+			In this work, a simple graph representation is used whereby nodes represent molecules and directed weighted edges represent 
+			promotional (positive weight) or inhibitory (negative weight) interactions. The addressed question is: given the universality (machine-independence) 
+			of the computability/complexity law, how do the effects of computational intractability manifest themselves in the evolution of biological networks? 
+			The network evolution problem (NEP) is defined formally and proved to be fundamentally hard (NP-hard) by reduction from the Knapsack Problem (KP).
+	
+	\noindent\rule[0.5ex]{\linewidth}{1pt}
+	
+			For empirical demonstration, biological networks of experimentally validated interactions are compared to randomly generated networks with 
+			varying degrees of connectivity. Networks serve as KP instances (obtained by reverse-reduction) fed to a KP solver as input, and the latter’s total 
+			knapsack value and weight is recorded for each network from multiple rounds of evolutionary pressure simulated by a hypothetical Oracle advice. 
+			The results show a clear link between a network’s distance from biological networks (in degree distribution) and the maximum knapsack value-to-weight 
+			ratio achieved. In other words, biological networks show better adaptability as evolutionary pressure increases, and tolerance for errors decreases.
+	
+	\noindent\rule[0.5ex]{\linewidth}{1pt}
+	
+			In Section 2, NEP is defined formally (2.1) and described informally (2.2). In section 3, theoretical and empirical results are 
+			presented. First, the NP-hardness of NEP is proven by reduction from the KP (3.1). Second, the data used in the empirical study is described (3.2). 
+			Third, the algorithmic workflow (3.3) and empirical results of computer simulations over the data are presented (3.4), comparing biological and 
+			synthetic networks. In section 4, conclusion a discussion and reflection on the results are presented.
+\end{comment}
+%	\printbibliography
+%\end{document}
+%end_custom_content

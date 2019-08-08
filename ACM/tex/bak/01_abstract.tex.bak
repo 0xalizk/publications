@@ -1,0 +1,77 @@
+\begin{abstract}
+	Virtually all molecular interactions networks, independent of organism and physiological context, have majority-leaves minority-hubs (mLmH) topology. 
+	Current generative models of this topology are based on controversial 
+	hypotheses that, controversy aside, demonstrate sufficient but not necessary evolutionary conditions for the emergence of mLmH.
+	Here we show that the circumvention of computational intractability provides sufficient and (assuming P$\neq$NP) 
+	necessary conditions for the emergence of mLmH property. 
+	Evolutionary pressure on molecular interaction networks is simulated by randomly labeling some interactions "beneficial" and others "detrimental". Each gene is 
+	subsequently given a benefit (damage) score according to how many beneficial (detrimental) interactions it is projecting onto or attracting from other genes. 
+	The problem of identifying which subset of genes should ideally be conserved and which deleted, so as to maximize (minimize)  
+	the total number of beneficial (detrimental) interactions network-wide, is NP-hard. 
+	An evolutionary algorithm that
+	simulates hypothetical instances of this problem and selects for networks that produce the easiest instances leads
+	to networks with mLmH property. The degree distributions of synthetically evolved networks match those of publicly available  experimentally-validated biological networks from many phylogenetically-distant organisms. 
+\end{abstract}
+
+\begin{comment}
+		%The debate over what the structural properties of biological networks (BNs) are,
+		%how they have emerged, and why they should be considered an evolutionary adaptation, 
+		%has been ongoing for almost two decades.  
+		%
+		%The evolutionary advantage of this topology and the universal law(s) that necessitated its emergence is still unknown.
+        %
+		Virtually all molecular interactions networks, independent of organism and physiological context, have majority-leaves minority-hubs (mLmH) topology. 
+		The evolutionary advantage of this topology and the universal law(s) that necessitated its emergence is not conclusively known.  
+		%
+		%There is ongoing debate as what the evolutionary forces that have moulded 
+		%BNs into their distinct majority-leaves minority-hubs (mLmH) topology are.
+		Existing hypotheses %, making different assumptions and operating at different levels of abstraction,
+		demonstrate sufficient but not necessary conditions for the emergence of mLmH and therefore one can rule
+		out the plausibility of the other.
+		%Nor can any existing model rule out the hypothesis that mLmH is a mere byproduct of non-adaptive
+		%evolutionary forces such as genetic drift and mutation. 
+		We approached the issue from a computational complexity perspective.
+		Evolutionary pressure on a BN is simulated by randomly labeling some interactions "beneficial" and others "detrimental". Each gene is 
+		subsequently given a benefit (damage) score according to how many beneficial (detrimental) interactions it is projecting onto or attracting from other genes. 
+		The problem of identifying what subset of genes should ideally be conserved and which deleted, so as to maximize (minimize)  
+		the total number of beneficial (detrimental) interactions under a simulated evolutionary pressure, is NP-hard. An evolutionary algorithm
+		that simulating hypothetical instances of this problem and selecting for easy instances produces, after 4000 generations, 
+		networks of indistinguishable topology as that of experimentally-validated real BNs in many organisms. 
+		Our results show that optimizing against computational intractability generates mLmH. 
+		The circumvention of computational intractability provides sufficient and (assuming P$\neq$NP) 
+		necessary conditions for the emergence of mLmH property. 
+\end{comment}
+\begin{comment}
+		Competing hypothesis make different assumptions 
+		Arguments around the \textit{what} revolve around the statistical coherence and network data representation of one study versus another. 
+		Competing hypothesis as to \textit{how} BNs evolved into their majority-leaves minority-hubs (mLmH) topology 
+
+		what: scale-free or not, small-world or not, essential=connected or not\cite{hahn_molecular_2004}. 
+		how:  modularity\cite{clune_evolutionary_2013}, duplication and divergence
+
+
+\end{comment}
+\begin{comment}			
+			A hub gene can single-handedly contribute a large number of beneficial interactions while the numerous leaf (small degree) genes, which are more
+            likely to be either beneficial or detrimental but not both,
+            need not be considered in the (computationally costly) optimization search.
+
+
+		A complexity-theoretic approach to studying biological networks is proposed. 
+		A simple graph representation is used where molecules (DNA, RNA, proteins and chemicals) 
+		are vertices and relations between them are directed and signed (promotional (+) or inhibitory (-)) edges. 
+		Based on this model, the network evolution problem (NEP) is defined formally as an optimization 
+		problem and subsequently proven to be fundamentally hard (NP-hard) by means of reduction from 
+		the Knapsack problem (KP). For empirical validation, various biological networks of 
+		experimentally-validated interactions are compared against randomly generated networks 
+		with varying degree distributions. An NEP instance is created using a given real or 
+		synthetic (random) network. After being reverse-reduced to a KP instance, each NEP instance 
+		is fed to a KP solver and the average achieved knapsack value-to-weight ratio is recorded 
+		from multiple rounds of simulated evolutionary pressure. The results show that biological 
+		networks (and synthetic networks of similar degree distribution) achieve the highest 
+		ratios at maximal evolutionary pressure and minimal error tolerance conditions. 
+		The more distant (in degree distribution) a synthetic network is from biological 
+		networks the lower its achieved ratio. The results shed light on how computational 
+		intractability has shaped the evolution of biological networks into their current topology.
+
+\end{comment}

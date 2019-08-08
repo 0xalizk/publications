@@ -1,0 +1,1 @@
+bash src/acm_compile.sh tex/main.tex bib

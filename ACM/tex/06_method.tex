@@ -1,0 +1,60 @@
+\section{Methods}
+The simulation begins with a random network of 400  (adaptation) or 4 (adaptation with growth) nodes . The number of edges is defined by the
+ chosen edge:node ratio that matches that of a given BN. Each individual network in the population is mutated once per generation. Mutation involves 
+ removing one randomly selected edge and replacing it with another edge between two random nodes.
+ The interaction sign (promotional or inhibitory) is also assigned at random. 
+ The network must remain connected, meaning that no edge is removed if it severs one section of the network from the rest. 
+ After mutation, each network is assessed based on a number of NEP instances that is either fixed at 100 for the 400-node simulations, or varied proportional to ${\sim}$
+ 10\% of the total nodes in the network for simulation of larger networks (Figure \ref{large_PPI}). 
+ For extremely small networks at early generations of adaptation-with-growth simulations of larger networks, a minimum 
+ of 10 NEP instances was generated. 
+ The threshold  of tolerated damaging interactions 
+ in the solution 
+ is imposed at 5\% of the sum of all damages in all simulations. The top 10\% fittest networks represent the surviving population and 
+ are used to spawn the population of networks for the next generation by making an equal number of exact replicas from each of the four. 
+ The population size is kept constant at 40-64 networks throughout the generations. 
+ 
+ For the adaptation-with-growth simulations  (Section \ref{evolution_results}), a random node is added every 5 generations (in the 400-node networks
+ shown in Figures \ref{adap_fig} and \ref{evol_figure}) 
+ or at every generations  (full-network simulations shown in Figure \ref{large_PPI}). 
+ In addition,  the appropriate number of edges are added to maintain the  edge:node ratio of the corresponding BN. The simulation 
+ proceeds to evolve for 2000 generations or until the desired network size is reached. 
+ In simulations where network size is capped at 400 nodes, the algorithm continues to evolve for 2000 more generations 
+ but with edge-reassignment mutation only. NEP instances were reduced to knapsack instances \cite{atiia_computational_2017-1} 
+ and solved to optimality using a pseudopolynomial algorithm \cite{pisinger_where_2005} 
+ implemented in C. Networks were encoded and manipulated using the NetworkX package \cite{schult_exploring_2008}.
+ \begin{comment}
+ The Bacteria Regulatory network was extract from RegulonDB \cite{gama-castro_regulondb_2016} 
+ with interactions that meet have the following properties:(1) Experimentally-validated (as opposed to computationally-predicted), 
+(2) Have "Strong" or "Confirmed" evidence (as opposed to "Weak"), (3) Randomized +/- interaction effect (promotional/inhibitory) in
+ cases where the RegulonDB designates it as "?" (unknown) or +/- (dual), 
+(4) Interactions are between transcription factor (TF)-Gene, TF-TF (non of small RNA (sRNA) -Gene interactions have "Strong" or 
+"Confirmed" evidence so there were excluded\footnote{\scriptsize{ see http://regulondb.ccg.unam.mx/menu/download/datasets/files/sRNABindingSiteSet.txt}}, 
+(5) Interactions involving Sigma proteins are not included since they are very common to all transcriptions and therefore do not in and of themselves control the combinatorial regulatory state of the organism, and 
+(6) In cases where an interaction was reported more than once, and the reported sign doesn't agree, the sign is randomized with more likelihood proportional to the number of times it was reported (e.g. if a reaction was reported four times and the signs were [+ + + -] were reported, a '+' is chosen with  75\% chance. 
+All other networks represent (undirected) protein-protein networks and were taken as is from their respective sources. 
+\end{comment}
+\begin{comment}
+Synthetic networks are simulated using a genetic algorithm. Individuals in the population are gene interaction networks. Variation is 
+generated through mutation that only affects network connectivity by altering edges. Fitness is determined based on the computational 
+ease of the NEP instances that the network yields. Only the fittest networks survive and copy themselves to form a new population of 
+networks. The process repeats for many generations.
+The simulation begins with a random Erdos-Renyi network with 400 nodes. Every pair of nodes has a .005 chance of acquiring an edge, 
+which results in a mean of 800 edges. Each edge is randomly assigned a qualitative sign to represent a promoting or inhibiting interaction. 
+The initial network is assessed based on many NEP instances, as described below. The fitness and degree distribution are recorded. 
+The simulation proceeds to evolve for 4000 generations. At each generation a population of 40 networks is generated from exact replicates 
+of the surviving population. At the first generation this is simply the initial Erdos-Renyi network. Each network in the population is 
+mutated and then assigned a fitness score based on the NEP instances it yields. 
+Mutation involves removing one randomly selected edge and replacing it with another edge between two random nodes with a random interaction sign. 
+In doing so the number of edges is conserved and only the connectivity is altered. Moreover, the network must remain connected, meaning that no 
+edge is removed if it severs one section of the network from the rest. Mutation begins with 4 replacements per generation for each individual 
+in the population and slows down in a linear fashion until it reaches one mutation per generation.
+After mutation, each network is assessed based on 400 NEP instances. Many instances are used to assess the network’s ability to adapt to an 
+arbitrary environment, rather than a specific condition. An oracle advice is generated with the ideal interaction sign for each edge of the 
+network. If the network’s edge matrix matches the advice, the two nodes of that edge acquire a benefit. Otherwise, they both incur a damage. 
+The reduction is not specific to the direction of the edge, since the loss of either gene would nullify the interaction. The benefits and 
+damages are used to reverse-reduce to the knapsack problem. The number of tolerated damages (knapsack capacity) is 10\% of the sum of all damages.
+The knapsack instance is scored based on its ability to circumvent computational intractability. The network fitness is the average of 
+its 400 instance scores. The fittest network in the population outputs its fitness score and degree distribution. The top 4 fittest 
+networks comprise the surviving population and are used to spawn the population of networks for the next generation.
+\end{comment}

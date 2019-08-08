@@ -1,0 +1,71 @@
+\input{/Users/mohammedalshamrani/Downloads/School/Waldispul/Publishing/Paper_04/tex/00_preamble.tex}
+
+\usepackage[table]{xcolor} % for \arrayrulecolor{yellow}, changes hline and vline colors
+\usepackage{geometry} %
+\usepackage{array}
+%begin_custom_header
+\usepackage{lmodern}
+\usepackage{multirow, booktabs} % http://tex.stackexchange.com/questions/328793/table-custom-cell-vertical-alignment					
+%end_custom_header
+\begin{document}
+%begin_custom_content
+\section{Method} \label{sec:method}
+		%\parbox[H]{\textwidth}{
+			DNA templates were constructed using ligation from smaller synthesized oligonucleotides (Biocorp). Segments of each 
+			node/edge sequence were concatenated using splint ligation with T4 DNA ligase. The following example illustrates the 
+			assembly and ligation of N0’s DNA template: 
+			%\newline
+			
+			% insert figure
+		
+			The splint oligonucleotide (black, underlined) and the constituent oligonucleotides of a node (red, blue, and green) 
+			were mixed at 10 uM concentration each in a 30-ul ligation reaction (50 mM Tris-HCl, 10 mM MgCl2, 1 mM ATP, 10 mM DTT. 
+			13u/ul T4 DNA ligase (NEB)) for 1 hour at room temperature. Donor oligonucleotides (blue and green) are phosphorylated 
+			with T4 Polynucleotide Kinase (PNK) (NEB) prior to ligation, and in the same ligation reaction conditions. PNK adds a 
+			phosphorous residue at the 5’ end of donor strands, a prerequisite for ligation. 
+			%\newline
+		
+			The ligation product is used as template in a PCR reaction. 0.5 ul of ligation reaction (5 picomole total concentration) 
+			is used as template in a 25-ul PCR reaction using Phusion DNA polymerase (NEB) and carried out for 40 cycles. By design, one 
+			oligonucleotide serves as both the forward and backward primer (since the primer sequence, red in this example, is purposefully 
+			ligated 5’ of the template). This eliminates the need to optimize melting temperature condition to satisfy two primers. 
+			The following illustration shows the resulting dsDNA template from PCR for N0, with primer sequence shown in bold orange, 
+			and the T7 promoter region underlined:  
+			%\newline
+
+			% insert figure
+
+			PCR products are used as template in in-vitro transcription (IVT) reactions at a concentration of 20 ng/ul in 
+			total reaction volume of 50ul (40 mM Tris-HCl, 6 mM MgCl2, 1.5 mM DTT, 2 mM spermidine, 1U/ul T7 (NEB)). The reaction is 
+			carried out for 2-4 hours at 37 degrees Celsius and subsequently treated with 5 units of DNAse I (NEB). Transcription 
+			reactions contained 2mM concentration of each NTP, except for N0 where GTP was added to 0.5mM concentration while m7G 
+			analog (NEB) was added to 4 mM concentration (to facilitate ribosomal translation of transcripts beginning with N0). 
+			In IVT reactions of N1 to N6, guanosine monophosphate (GMP) (Sigma) was added to a 2mM concentration while guanosine 
+			triphosphate (GTP) was added to a 0.5mM concentration (to facilitate RNA ligation, since ligase requires monophosphate 
+			at the 5’ donor RNA). The example below shows N0’s IVT, with the arrow indicating the transcription start site of T7 polymerase. 
+			In all templates, the 1st transcribed base is G (preferred by T7) and the 2nd/3rd are CG when possible, as this has been shown 
+			to further improve transcription yield [26]: 
+			%\newline
+		
+			% insert figure
+
+			(4)	N6 RNA sequence is polyadenylated using E. coli. poly(A) polymerase (NEB) in a total reaction volume of 10ul at 
+			concentration of 5 ng/ul (50 mM Tris-HCl 250 mM NaCl 10 mM MgCl2, 0.5U/ul poly(A)), in order to facilitate ribosomal 
+			translation of sequences ending with N6 since the ribosomal translation mix to be used is from eukaryotes (Promega’s 
+			Human In Vitro Translation system) and polyadenation is a prerequisite for mRNA stability and successful translation [27]. 
+			%\newline
+			
+			The RNA transcripts are ligated using T4 RNA Ligase 2 (NEB) at a concentration of 10uM each transcript (nodes and edges) 
+			in a total reaction volume of 30ul (50 mM Tris-HCl 10 mM MgCl2 2 mM DTT, 1U/ul T4 Ligase). 
+			%\newline
+			
+			The solution to A-HPP is an mRNA sequence encoding for the enhanced fluorescent green protein (EGFP). The translation 
+			step has not yet been implemented. The anatomy of the ligation product encoding for the correct A-HPP solution is shown 
+			below (consecutive node sequences shown in different colors, underlined sequence = ribosome binding site (RBS); AUG = start codon, 
+			which is part of N0, UAA=stop codon, which is part of N6; lower-case sequence at the 3’ = polyadenylation of N6):
+
+		
+		
+%end_custom_content
+\printbibliography
+\end{document}

@@ -1,0 +1,9 @@
+1. create a symlinks for src/both.sh and src/compile.sh inside /usr/bin/both and /usr/bin/compile
+2. to compile the whole manuscript:
+   both     # wihtout bibliograph
+   both bib # with bibliograph (slower)
+3. to compile a single section:
+    compile tex/file.tex      # without bibliograph
+    compile tex/bile.tex bib  # with bibliograph
+   
+
