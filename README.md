@@ -7,7 +7,7 @@
 
     2019
     The Computational Intractability Law Molds the Topology of Biological Networks
-    Ali A Atiia, Corbin Hopper, Katsumi Inoue, Silvia Vidal, and Jérôme Waldispühl}
+    Ali A Atiia, Corbin Hopper, Katsumi Inoue, Silvia Vidal, and Jérôme Waldispühl
     Submitted
     https://git.io/fj710
 
