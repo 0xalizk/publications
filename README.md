@@ -1,8 +1,9 @@
+
 ## Publications: 
 
     2019
     The Emergence of Community and Sign Distribution in Biological Networks
-    <span style="color:blue"> Ali A Atiia</span>
+    <p style="color:blue,font-size:46px"> Ali A Atiia</p>
     In preparation  
 
     2019
