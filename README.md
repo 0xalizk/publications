@@ -1,9 +1,16 @@
 
+<style
+  type="text/css">
+h1 {color:red;}
+
+p {color:blue;}
+</style>
+
 ## Publications: 
 
     2019
     The Emergence of Community and Sign Distribution in Biological Networks
-    <p style="color:blue,font-size:46px"> Ali A Atiia</p>
+    Ali A Atiia
     In preparation  
 
     2019
