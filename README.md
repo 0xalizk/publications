@@ -1,6 +1,6 @@
 
 ###### 2019 <br>
-The Emergence of Community and Sign Distribution in Biological Networks <br>
+The Emergence of Component and Sign Distribution in Biological Networks <br>
 <sup>Ali Atiia, _In preparation_<a href='github.com'> (draft)</a>.</sup><br>
 
 
