@@ -7,7 +7,7 @@ The Emergence of Component and Sign Distribution in Biological Networks <br>
 ###### 2019<br>
 The Computational Intractability Law Molds the Topology of Biological Networks <br>
 <sup>Ali Atiia, Corbin Hopper, Katsumi Inoue, Silvia Vidal, and Jérôme Waldispühl
-. <a href="https://git.io/fj710">_Submitted_</a>.</sup><br>
+. <a href="https://git.io/fj710">_Submitted (in revision)_</a>.</sup><br>
 
 
 ###### 2018<br>
