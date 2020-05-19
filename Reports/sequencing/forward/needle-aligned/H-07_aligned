@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:15
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H07_seq
+#    -bsequence individual/H07_syn
+#    -outfile aligned/H-07_aligned
+# Align_format: srspair
+# Report_file: aligned/H-07_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H07_P1410456_063.ab1sanger
+# 2: H07_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 334
+# Identity:     286/334 (85.6%)
+# Similarity:   286/334 (85.6%)
+# Gaps:          48/334 (14.4%)
+# Score: 1412.0
+# 
+#
+#=======================================
+
+H07_P1410456_      1 nnnt-t-------tt---t-ttn-n-n-n-n-n-n-t----tc--c-a-t     23
+                        | |       ||   | |                    ||  | | |
+H07_synthesis      1 ---TATGAAGAGGTTGACTGT--C-G-A-G-G-A-C-AAGATCATCTATT     38
+
+H07_P1410456_     24 c--gtcac-cgtgttc-tcgataaattgtcagagagtgtcgtatacattc     69
+                     |  ||||| ||||||| |||||||||||||||||||||||||||||||||
+H07_synthesis     39 CATGTCACTCGTGTTCTTCGATAAATTGTCAGAGAGTGTCGTATACATTC     88
+
+H07_P1410456_     70 tcttgaacacaatcactatgtaaacaaagtgactgcatcttgctccaagt    119
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H07_synthesis     89 TCTTGAACACAATCACTATGTAAACAAAGTGACTGCATCTTGCTCCAAGT    138
+
+H07_P1410456_    120 tacgtggcagtagagatcaagaaccaggtcaaacatagcgactaagctga    169
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H07_synthesis    139 TACGTGGCAGTAGAGATCAAGAACCAGGTCAAACATAGCGACTAAGCTGA    188
+
+H07_P1410456_    170 tctgacgtcctaaatataacggacattcacatgattttgagttgctgtaa    219
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H07_synthesis    189 TCTGACGTCCTAAATATAACGGACATTCACATGATTTTGAGTTGCTGTAA    238
+
+H07_P1410456_    220 tggtactagacgaaggtatggtacttgttctgttggaaaggagaggaact    269
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H07_synthesis    239 TGGTACTAGACGAAGGTATGGTACTTGTTCTGTTGGAAAGGAGAGGAACT    288
+
+H07_P1410456_    270 tcaatgcagaataagacagaccac-ct-ttct-a    300
+                     |||||||||||||||||||||||  |  |||| |
+H07_synthesis    289 TCAATGCAGAATAAGACAGACCA-AC-ATTCTGA    320
+
+
+#---------------------------------------
+#---------------------------------------

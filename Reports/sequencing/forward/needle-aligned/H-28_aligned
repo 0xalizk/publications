@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:16
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H28_seq
+#    -bsequence individual/H28_syn
+#    -outfile aligned/H-28_aligned
+# Align_format: srspair
+# Report_file: aligned/H-28_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H28_P1410456_028.ab1sanger
+# 2: H28_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 345
+# Identity:     275/345 (79.7%)
+# Similarity:   275/345 (79.7%)
+# Gaps:          70/345 (20.3%)
+# Score: 1363.0
+# 
+#
+#=======================================
+
+H28_P1410456_      1 nnnn------t-t--t--tn-n-n-n-n-n-n-n-n-a------a-g--c     21
+                               | |  |  |                         | |  |
+H28_synthesis      1 ----AGTACGTGTAATCAT-G-T-A-C-A-G-T-T-T-GCTGTGATGCAC     36
+
+H28_P1410456_     22 gac-tac-a-ccg-ggtga-g-tagattcgtatatcagtgtagagtacct     65
+                     ||| ||  | ||  ||||| | ||||||||||||||||||||||||||||
+H28_synthesis     37 GACTTA-GATCC-AGGTGATGTTAGATTCGTATATCAGTGTAGAGTACCT     84
+
+H28_P1410456_     66 cgtgagaaagtaagcacacctgactctaagcagtgaatgctagacctcaa    115
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H28_synthesis     85 CGTGAGAAAGTAAGCACACCTGACTCTAAGCAGTGAATGCTAGACCTCAA    134
+
+H28_P1410456_    116 cactccacttctagtatattggttctctgtatggtaaacaacagctttgg    165
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H28_synthesis    135 CACTCCACTTCTAGTATATTGGTTCTCTGTATGGTAAACAACAGCTTTGG    184
+
+H28_P1410456_    166 attat-ttatccactatcacactggttaatatagcacagtgagaggtact    214
+                     ||||  ||||||||||||||||||||||||||||||||||||||||||||
+H28_synthesis    185 ATTA-GTTATCCACTATCACACTGGTTAATATAGCACAGTGAGAGGTACT    233
+
+H28_P1410456_    215 actgttccaatggatca-aaacat-tta-aactctttctcgttaca-aaa    260
+                     ||||||||||||||||  |||||  ||  ||||||||||||||||  |||
+H28_synthesis    234 ACTGTTCCAATGGATC-GAAACA-GTT-GAACTCTTTCTCGTTAC-TAAA    279
+
+H28_P1410456_    261 cgacg-ggtatataatatc-cctatatagtcctaatta-aa-a-a    300
+                     ||||  ||||||||||||  |||||||||||||||||   | | |
+H28_synthesis    280 CGAC-AGGTATATAATAT-ACCTATATAGTCCTAATT-C-AGAGA    320
+
+
+#---------------------------------------
+#---------------------------------------

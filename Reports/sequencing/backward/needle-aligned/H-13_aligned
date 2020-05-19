@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H13_seq
+#    -bsequence individual/H13_syn
+#    -outfile aligned/H-13_aligned
+# Align_format: srspair
+# Report_file: aligned/H-13_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H13_P1410456_089.ab1sanger
+# 2: H13_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 355
+# Identity:     265/355 (74.6%)
+# Similarity:   265/355 (74.6%)
+# Gaps:          90/355 (25.4%)
+# Score: 1323.0
+# 
+#
+#=======================================
+
+H13_P1410456_      1 nnnnnnnnnnnnnnn----------------------------------g     16
+                                                                      |
+H13_synthesis      1 ---------------CGTAATTTATCCTGTGTAAATCATTTACCAATTCG     35
+
+H13_P1410456_     17 -gt-agtc-aat-gcgagat-ctcc-aacgtatggatagtccagtatcta     60
+                      || | |  ||| ||||||| |||| ||||||||||||||||||||||||
+H13_synthesis     36 AGTCA-T-AAATAGCGAGATCCTCCTAACGTATGGATAGTCCAGTATCTA     83
+
+H13_P1410456_     61 gcaagtctcagaaccaacgatgatatacggttaatctgtcaagttcacct    110
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H13_synthesis     84 GCAAGTCTCAGAACCAACGATGATATACGGTTAATCTGTCAAGTTCACCT    133
+
+H13_P1410456_    111 ttggtacagttgatcttcctacaggtatacataggttcctcacttaagtg    160
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H13_synthesis    134 TTGGTACAGTTGATCTTCCTACAGGTATACATAGGTTCCTCACTTAAGTG    183
+
+H13_P1410456_    161 aagtatggagtcgtgtcctacattataaacaatttaaa-acaacctttcc    209
+                     ||||||||||||||||||||||||||||||||||| || |||||||||||
+H13_synthesis    184 AAGTATGGAGTCGTGTCCTACATTATAAACAATTT-AAGACAACCTTTCC    232
+
+H13_P1410456_    210 aaa-aaagcctatacgtccg-ggtgcctgtcac-ctctaca-acttca-a    254
+                      || |||||||||||||||  |||||||||||  ||||||  |||||  |
+H13_synthesis    233 -AAGAAAGCCTATACGTCC-TGGTGCCTGTCA-GCTCTAC-GACTTC-GA    277
+
+H13_P1410456_    255 tcttgaagtat-taca-aca-act-ttctaaa-a-actccaa-ata-a-t    295
+                     ||||||||||  |||  ||  ||  |||| |  | ||||| | ||  | |
+H13_synthesis    278 TCTTGAAGTA-GTAC-GAC-GAC-ATTCT-A-GAGACTCC-ACAT-CATT    319
+
+H13_P1410456_    296 taaaa    300
+                     |    
+H13_synthesis    320 T----    320
+
+
+#---------------------------------------
+#---------------------------------------

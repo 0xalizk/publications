@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:15
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H06_seq
+#    -bsequence individual/H06_syn
+#    -outfile aligned/H-06_aligned
+# Align_format: srspair
+# Report_file: aligned/H-06_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H06_P1410456_048.ab1sanger
+# 2: H06_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 349
+# Identity:     271/349 (77.7%)
+# Similarity:   271/349 (77.7%)
+# Gaps:          78/349 (22.3%)
+# Score: 1351.0
+# 
+#
+#=======================================
+
+H06_P1410456_      1 nnnnnnnnnnnnnnnnn--------------------------------t     18
+                                                                      |
+H06_synthesis      1 -----------------TTAAGGTGGAACCATCCTTCCTGAGCTTCTAAT     33
+
+H06_P1410456_     19 t-gg--tagtc-aca-caaagtccaagagtgtattgaactgcttacttgg     63
+                     | ||  ||||| ||| ||||||||||||||||||||||||||||||||||
+H06_synthesis     34 TAGGTCTAGTCTACACCAAAGTCCAAGAGTGTATTGAACTGCTTACTTGG     83
+
+H06_P1410456_     64 tactggtcctattacaatcctactctggatgatactacacaggagggtgt    113
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H06_synthesis     84 TACTGGTCCTATTACAATCCTACTCTGGATGATACTACACAGGAGGGTGT    133
+
+H06_P1410456_    114 gttaccagtatactgtgaattaaggagcgaaagtcgaagtccattgctta    163
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H06_synthesis    134 GTTACCAGTATACTGTGAATTAAGGAGCGAAAGTCGAAGTCCATTGCTTA    183
+
+H06_P1410456_    164 tcag-gttgtattaa-acatgagtcaggtcctgaacttcacctggaactg    211
+                     |||  |||||||| | ||||||||||||||||||||||||||||||||||
+H06_synthesis    184 TCA-TGTTGTATT-AGACATGAGTCAGGTCCTGAACTTCACCTGGAACTG    231
+
+H06_P1410456_    212 tcgtcacac-ctcctcatgctgcttgtgaggaca-atgtctcttgtttct    259
+                     ||||||||  |||||||||||||||||||||||  |||||||||||||||
+H06_synthesis    232 TCGTCACA-GCTCCTCATGCTGCTTGTGAGGAC-GATGTCTCTTGTTTCT    279
+
+H06_P1410456_    260 ca-aatgttctgacg-ggtgctgctgttga-aa-gaaca-a-aaag--g    300
+                     |  |||||||||||  |||||||||||||  || | ||     | |  |
+H06_synthesis    280 C-GAATGTTCTGAC-TGGTGCTGCTGTTG-TAATG-AC-G-T-A-GATG    320
+
+
+#---------------------------------------
+#---------------------------------------

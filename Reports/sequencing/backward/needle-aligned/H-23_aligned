@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H23_seq
+#    -bsequence individual/H23_syn
+#    -outfile aligned/H-23_aligned
+# Align_format: srspair
+# Report_file: aligned/H-23_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H23_P1410456_071.ab1sanger
+# 2: H23_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 339
+# Identity:     281/339 (82.9%)
+# Similarity:   281/339 (82.9%)
+# Gaps:          58/339 (17.1%)
+# Score: 1399.0
+# 
+#
+#=======================================
+
+H23_P1410456_      1 nnnnnnnnnnnnnnn----------------------------c---ca-     18
+                                                                |   || 
+H23_synthesis      1 ---------------AAGATATGTGTTTGAGCTTCAAAGAATGCTTTCAA     35
+
+H23_P1410456_     19 -g-gc-acgaacgcattt-agc-a-tagaatctgtggtggtatataagtg     62
+                      | || |||||||||||| ||| | |||||||||||||||||||||||||
+H23_synthesis     36 AGTGCAACGAACGCATTTAAGCAATTAGAATCTGTGGTGGTATATAAGTG     85
+
+H23_P1410456_     63 ctctttaacgatctatcgaggaaattgttcatagtaagtcacattcagaa    112
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H23_synthesis     86 CTCTTTAACGATCTATCGAGGAAATTGTTCATAGTAAGTCACATTCAGAA    135
+
+H23_P1410456_    113 tactaacctgtgaacctgagcaaaca-ttaattgaatcatagtctcgtgg    161
+                     |||||||||||||||||||||||||  |||||||||||||||||||||||
+H23_synthesis    136 TACTAACCTGTGAACCTGAGCAAAC-TTTAATTGAATCATAGTCTCGTGG    184
+
+H23_P1410456_    162 tacgtcgagtcaaattatcagtatctgaagcagaagaactctcagcatac    211
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H23_synthesis    185 TACGTCGAGTCAAATTATCAGTATCTGAAGCAGAAGAACTCTCAGCATAC    234
+
+H23_P1410456_    212 acaacttcctcgtggagcacaattactttcactccattcacatcaacaag    261
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H23_synthesis    235 ACAACTTCCTCGTGGAGCACAATTACTTTCACTCCATTCACATCAACAAG    284
+
+H23_P1410456_    262 acacactaccaacgtcacataccagagttccattaaaan    300
+                     ||||||||||||||||||||||||||||||||||||   
+H23_synthesis    285 ACACACTACCAACGTCACATACCAGAGTTCCATTAA---    320
+
+
+#---------------------------------------
+#---------------------------------------

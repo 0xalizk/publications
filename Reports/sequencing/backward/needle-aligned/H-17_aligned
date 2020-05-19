@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H17_seq
+#    -bsequence individual/H17_syn
+#    -outfile aligned/H-17_aligned
+# Align_format: srspair
+# Report_file: aligned/H-17_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H17_P1410456_023.ab1sanger
+# 2: H17_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 338
+# Identity:     282/338 (83.4%)
+# Similarity:   282/338 (83.4%)
+# Gaps:          56/338 (16.6%)
+# Score: 1408.0
+# 
+#
+#=======================================
+
+H17_P1410456_      1 nnnnnnnnnnnnnnnnnn-------------------------------g     19
+                                                                      |
+H17_synthesis      1 ------------------GTGGAGACCTGACAGCTCGACTCATAACTAAG     32
+
+H17_P1410456_     20 -gg-a-gtggtcag-tagca-gagaccagg-aaccaaattgctaacgatt     63
+                      || | |||||||| ||||| ||||||||| |||||||||||||||||||
+H17_synthesis     33 TGGTAAGTGGTCAGTTAGCAGGAGACCAGGAAACCAAATTGCTAACGATT     82
+
+H17_P1410456_     64 cacgtcgaatcctagaaactccaccagatgggtatgtatcctatctttta    113
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H17_synthesis     83 CACGTCGAATCCTAGAAACTCCACCAGATGGGTATGTATCCTATCTTTTA    132
+
+H17_P1410456_    114 gtgcataatagttataaatcgtgtatgagtctctcgatggttgagactcg    163
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H17_synthesis    133 GTGCATAATAGTTATAAATCGTGTATGAGTCTCTCGATGGTTGAGACTCG    182
+
+H17_P1410456_    164 acaatacagcctacttgcacgttcacggaaacatcatcgagcttatctag    213
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H17_synthesis    183 ACAATACAGCCTACTTGCACGTTCACGGAAACATCATCGAGCTTATCTAG    232
+
+H17_P1410456_    214 tgctatctcataaattccttagtgattattaacgtatggaacactcctgt    263
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H17_synthesis    233 TGCTATCTCATAAATTCCTTAGTGATTATTAACGTATGGAACACTCCTGT    282
+
+H17_P1410456_    264 cctaactaataggagctacacatgaggacctattctc-    300
+                     ||||||||||||||||||||||||||||||||||||| 
+H17_synthesis    283 CCTAACTAATAGGAGCTACACATGAGGACCTATTCTCG    320
+
+
+#---------------------------------------
+#---------------------------------------

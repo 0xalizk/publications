@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:28
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H02_seq
+#    -bsequence individual/H02_syn
+#    -outfile aligned/H-02_aligned
+# Align_format: srspair
+# Report_file: aligned/H-02_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H02_P1410456_092.ab1sanger
+# 2: H02_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 337
+# Identity:     282/337 (83.7%)
+# Similarity:   282/337 (83.7%)
+# Gaps:          54/337 (16.0%)
+# Score: 1406.0
+# 
+#
+#=======================================
+
+H02_P1410456_      1 --------------nntttg-g-g--gn-n-n-n-n-n-n-nnggg-c-t     23
+                                     |||  | |  |                | | | |
+H02_synthesis      1 ACTCTCAAGGACGA-ATTT-AGTGTTG-T-A-T-T-T-A-T--G-GACTT     38
+
+H02_P1410456_     24 c-atgaag---ga-ac-gatc-gatgatgcacttttc-tatgcaggagtg     65
+                     | |||||    || |  |||  |||||||||| |||| ||||||||||||
+H02_synthesis     39 CTATGAA-ATAGATA-TGAT-TGATGATGCAC-TTTCTTATGCAGGAGTG     84
+
+H02_P1410456_     66 acagaatcgacaggaactcatctaggtctataagctggttgtatttatct    115
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H02_synthesis     85 ACAGAATCGACAGGAACTCATCTAGGTCTATAAGCTGGTTGTATTTATCT    134
+
+H02_P1410456_    116 tgtttcaaccacttagaatatgtcagcattccagacgaacaacaaatcga    165
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H02_synthesis    135 TGTTTCAACCACTTAGAATATGTCAGCATTCCAGACGAACAACAAATCGA    184
+
+H02_P1410456_    166 agctcgtgaaacgaactcctctcaacgtaatcgaccttaccacacctcag    215
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H02_synthesis    185 AGCTCGTGAAACGAACTCCTCTCAACGTAATCGACCTTACCACACCTCAG    234
+
+H02_P1410456_    216 taactcaagatgacagcataaagagagctaatgactcta-gacaagagag    264
+                     ||||||||||||||||||||||||||||||||||||||  ||||||||||
+H02_synthesis    235 TAACTCAAGATGACAGCATAAAGAGAGCTAATGACTCT-TGACAAGAGAG    283
+
+H02_P1410456_    265 caagtatattatgttactccagagataatatgagac-    300
+                     |||||||||||||||||||||||||||||||||||| 
+H02_synthesis    284 CAAGTATATTATGTTACTCCAGAGATAATATGAGACA    320
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:15
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H12_seq
+#    -bsequence individual/H12_syn
+#    -outfile aligned/H-12_aligned
+# Align_format: srspair
+# Report_file: aligned/H-12_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H12_P1410456_096.ab1sanger
+# 2: H12_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 342
+# Identity:     277/342 (81.0%)
+# Similarity:   277/342 (81.0%)
+# Gaps:          64/342 (18.7%)
+# Score: 1360.0
+# 
+#
+#=======================================
+
+H12_P1410456_      1 nng---g--g-gggn-n-n-n-n--g-----------g----gt--a-tt     20
+                           |  | |             |           |    ||  | ||
+H12_synthesis      1 ---TTAGATGTG---C-A-T-A-CAGACCTACATCATGTAATGTTCAATT     40
+
+H12_P1410456_     21 c-ctg-g-tg-aatcc-ataaatcaacctatttagctcacatcctctaaa     65
+                     | ||  | || ||||| |||||||||||||||||||||||||||||||||
+H12_synthesis     41 CACT-TGTTGAAATCCAATAAATCAACCTATTTAGCTCACATCCTCTAAA     89
+
+H12_P1410456_     66 cattgagtactcgactgtgtgttttcgtccataaggttcctaaattattc    115
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H12_synthesis     90 CATTGAGTACTCGACTGTGTGTTTTCGTCCATAAGGTTCCTAAATTATTC    139
+
+H12_P1410456_    116 aaagtaccatgaatccacagatggtcgttctcttcaatatggtgtagacg    165
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H12_synthesis    140 AAAGTACCATGAATCCACAGATGGTCGTTCTCTTCAATATGGTGTAGACG    189
+
+H12_P1410456_    166 agtagttaagttcgagctttcaggtaggagacataggttggttcctgtct    215
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H12_synthesis    190 AGTAGTTAAGTTCGAGCTTTCAGGTAGGAGACATAGGTTGGTTCCTGTCT    239
+
+H12_P1410456_    216 acttaggaaaa-acaatagcaggtcaggacagcaggtctgcact-tctct    263
+                     ||||||| ||| |||||||||||||||||||||||||||||||  |||||
+H12_synthesis    240 ACTTAGG-AAAGACAATAGCAGGTCAGGACAGCAGGTCTGCAC-GTCTCT    287
+
+H12_P1410456_    264 g-gaca-aaa-aat-ttcctgactgaaaggtgata-aaaaaa    300
+                       |||   || ||  ||||||||||||| |||||   | | .
+H12_synthesis    288 -TGAC-G-AATAA-GTTCCTGACTGAAA-GTGAT-G-A-A-C    320
+
+
+#---------------------------------------
+#---------------------------------------

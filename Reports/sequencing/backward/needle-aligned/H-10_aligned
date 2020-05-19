@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H10_seq
+#    -bsequence individual/H10_syn
+#    -outfile aligned/H-10_aligned
+# Align_format: srspair
+# Report_file: aligned/H-10_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H10_P1410456_058.ab1sanger
+# 2: H10_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 348
+# Identity:     271/348 (77.9%)
+# Similarity:   271/348 (77.9%)
+# Gaps:          76/348 (21.8%)
+# Score: 1331.0
+# 
+#
+#=======================================
+
+H10_P1410456_      1 nnnnt---t----t-tn-n-n-n-n-n-n-n--c-----ct-------ac     21
+                             |    | |                 |     ||       ||
+H10_synthesis      1 -----CAGTGAGCTGT-C-C-A-C-G-A-A-AGCAGAGTCTGATCTCAAC     37
+
+H10_P1410456_     22 t-gagg-a-gc-aggatacc-agaggaatatgctcatcacaca-acctcg     65
+                     | |||| | || |||||||| |||||||||||||||||||||  ||||||
+H10_synthesis     38 TAGAGGAATGCAAGGATACCAAGAGGAATATGCTCATCACAC-GACCTCG     86
+
+H10_P1410456_     66 tatgtaacataccacataagcatggacagttcctaataagtggtccatca    115
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H10_synthesis     87 TATGTAACATACCACATAAGCATGGACAGTTCCTAATAAGTGGTCCATCA    136
+
+H10_P1410456_    116 gcaggtataagttgatagaagcaaact-tttattaaacagcgattcagga    164
+                     ||||||||||||||||||||||||||  ||||||||||||||||||||||
+H10_synthesis    137 GCAGGTATAAGTTGATAGAAGCAAAC-GTTTATTAAACAGCGATTCAGGA    185
+
+H10_P1410456_    165 atatagtcttagagaatcctcatattatcaccactaacctcatacaaca-    213
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+H10_synthesis    186 ATATAGTCTTAGAGAATCCTCATATTATCACCACTAACCTCATACAAC-G    234
+
+H10_P1410456_    214 atttccg-gttctacgtgaccttcag-gcag-ggtgtatgtatac-tgga    259
+                     ||||||  |||||||||||||||||  |||  ||||||||||||| ||| 
+H10_synthesis    235 ATTTCC-TGTTCTACGTGACCTTCA-TGCA-AGGTGTATGTATACTTGG-    280
+
+H10_P1410456_    260 aca-agcagtgataatcct-ttat-tttcaaa-aaaccta-a-aaa-a    300
+                     ||  ||||||||||||||  |||  |||| || ||||||     |  .
+H10_synthesis    281 AC-GAGCAGTGATAATCC-ATTA-CTTTC-AACAAACCT-C-G-A-TC    320
+
+
+#---------------------------------------
+#---------------------------------------

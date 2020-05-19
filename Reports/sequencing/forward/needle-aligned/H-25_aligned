@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:16
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H25_seq
+#    -bsequence individual/H25_syn
+#    -outfile aligned/H-25_aligned
+# Align_format: srspair
+# Report_file: aligned/H-25_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H25_P1410456_011.ab1sanger
+# 2: H25_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 346
+# Identity:     274/346 (79.2%)
+# Similarity:   274/346 (79.2%)
+# Gaps:          72/346 (20.8%)
+# Score: 1357.0
+# 
+#
+#=======================================
+
+H25_P1410456_      1 nnc-----c-----------c-tt-t--tn-n-n-n-n-n-naaggn---     21
+                             |           | || |  |             || |    
+H25_synthesis      1 ---TATTTCAAGTTTGGTATCATTATCCT-A-A-T-C-T-C-AA-G-AAT     38
+
+H25_P1410456_     22 --cg-a-gtcgtg-atc-attc-agt-atcatccttctc-aaacgattaa     62
+                       || | |||||| ||| |||| ||| |||||||||||| ||||||||||
+H25_synthesis     39 ATCGAACGTCGTGAATCTATTCTAGTAATCATCCTTCTCAAAACGATTAA     88
+
+H25_P1410456_     63 aggagttagctccacctggacatgaacaaatacgatgagaaacgtctcga    112
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H25_synthesis     89 AGGAGTTAGCTCCACCTGGACATGAACAAATACGATGAGAAACGTCTCGA    138
+
+H25_P1410456_    113 aggatcgtagtcctttcatgtagcactcatcgaatcaatactcatactct    162
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H25_synthesis    139 AGGATCGTAGTCCTTTCATGTAGCACTCATCGAATCAATACTCATACTCT    188
+
+H25_P1410456_    163 tatggtctctttgactgtccagcactcagcaa-agagagacgtaatacag    211
+                     |||||||||||||||||||||||||||||| | |||||||||||||||||
+H25_synthesis    189 TATGGTCTCTTTGACTGTCCAGCACTCAGC-AGAGAGAGACGTAATACAG    237
+
+H25_P1410456_    212 tgctcgacaaa-aaacgtcacttgctgcaatcctgata-aatgaacgtct    259
+                     |||||||| || |||||||||||||||||||||||||  |||||||||||
+H25_synthesis    238 TGCTCGAC-AAGAAACGTCACTTGCTGCAATCCTGAT-TAATGAACGTCT    285
+
+H25_P1410456_    260 gta-agaggg-ggtacatttggttcttcaaa-ga-c-caaaannnn    300
+                     ||  ||| || ||||||||||||||||| || || | |        
+H25_synthesis    286 GT-TAGA-GGTGGTACATTTGGTTCTTC-AATGACCTC--------    320
+
+
+#---------------------------------------
+#---------------------------------------

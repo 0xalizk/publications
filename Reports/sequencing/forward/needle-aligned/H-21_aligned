@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:16
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H21_seq
+#    -bsequence individual/H21_syn
+#    -outfile aligned/H-21_aligned
+# Align_format: srspair
+# Report_file: aligned/H-21_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H21_P1410456_077.ab1sanger
+# 2: H21_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 470
+# Identity:     149/470 (31.7%)
+# Similarity:   149/470 (31.7%)
+# Gaps:         320/470 (68.1%)
+# Score: 660.0
+# 
+#
+#=======================================
+
+H21_P1410456_      1 ------------nng--------------g-g-gg-gg--tg-g-a----     13
+                                   |              | | || ||  || | |    
+H21_synthesis      1 TATTAAATCGAC-TGGTCTCACTTCTAATGTGCGGAGGTATGAGCACGAG     49
+
+H21_P1410456_     14 t-c-g--c-t-gt--gg---c-a---a-g-a-t--c-t-a--c-c-c-tt     36
+                     | | |  | | ||  ||   | |   | | | |  | | |  | | | ||
+H21_synthesis     50 TTCTGCTCCTTGTCCGGTTACGACCTATGAAGTCTCATTATACTCTCCTT     99
+
+H21_P1410456_     37 gc-tt-tg-a-c-a-t-t-ga-c-ttga--a--attggtaggac-t-t-a     69
+                     || || || | | | | | || | ||||  |  ||||||||||| | | |
+H21_synthesis    100 GCTTTCTGAATCCAGTATTGATCGTTGACGAACATTGGTAGGACTTATTA    149
+
+H21_P1410456_     70 t-t-c-gctt--at-t--tc--c-a--gg-g-a-a--a-c--c--cc-gt     95
+                     | | | ||||  || |  ||  | |  || | | |  | |  |  || ||
+H21_synthesis    150 TATCCTGCTTACATCTAGTCGTCGAACGGAGGAAAGCAGCTACAACCAGT    199
+
+H21_P1410456_     96 -t-g-g-a-agta--a--atg--at-c--gg-g---g-a-a--a--c-c-    119
+                      | | | | ||||  |  |||  || |  || |   | | |  |  | | 
+H21_synthesis    200 CTTGTGCAAAGTATTAGTATGACATACCTGGAGGTTGGAGAGTACACACT    249
+
+H21_P1410456_    120 t-g-a-c-t-a--aaa--t-a--a-t--t--t-a--g--a-a--t--a-c    141
+                     | | | | | |  |||  | |  | |  |  | |  |  | |  |  | |
+H21_synthesis    250 TGGAATCCTTAGCAAAGCTCAAGAGTCCTTCTGACTGATAAACGTAGACC    299
+
+H21_P1410456_    142 a-tt--ttg-aa----a-a--aannnnnnnnnnnnnnnnnnnnnnnnnnn    180
+                     | ||  ||   |    | |  ||                           
+H21_synthesis    300 AGTTAATT-T-AGGTGAGATGAA---------------------------    320
+
+H21_P1410456_    181 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn    230
+                                                                       
+H21_synthesis    320 --------------------------------------------------    320
+
+H21_P1410456_    231 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn    280
+                                                                       
+H21_synthesis    320 --------------------------------------------------    320
+
+H21_P1410456_    281 nnnnnnnnnnnnnnnnnnnn    300
+                                         
+H21_synthesis    320 --------------------    320
+
+
+#---------------------------------------
+#---------------------------------------

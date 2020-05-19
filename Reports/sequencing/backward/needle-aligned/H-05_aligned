@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:28
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H05_seq
+#    -bsequence individual/H05_syn
+#    -outfile aligned/H-05_aligned
+# Align_format: srspair
+# Report_file: aligned/H-05_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H05_P1410456_025.ab1sanger
+# 2: H05_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 358
+# Identity:     202/358 (56.4%)
+# Similarity:   202/358 (56.4%)
+# Gaps:         156/358 (43.6%)
+# Score: 969.0
+# 
+#
+#=======================================
+
+H05_P1410456_      1 nnnnn-----a---a---a-a--an-n-n-n-n-n-n-n-n---c---cc     22
+                               |   |   | |  |                    |   ||
+H05_synthesis      1 -----CTGTGAGGTATCCACACCA-C-T-T-T-G-T-G-T-TGTCGTACC     36
+
+H05_P1410456_     23 ac-c--ac-ca-acagtagcatgttcagagaataatgcaacaacggagta     67
+                     || |  || || ||||||||||||||||||||||||||||||||||||||
+H05_synthesis     37 ACACCTACACATACAGTAGCATGTTCAGAGAATAATGCAACAACGGAGTA     86
+
+H05_P1410456_     68 gctttatccattctgacagactcattttcaccacactaatttacctgcaa    117
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H05_synthesis     87 GCTTTATCCATTCTGACAGACTCATTTTCACCACACTAATTTACCTGCAA    136
+
+H05_P1410456_    118 cttcaactgattgttgaatggatatcagatatgaatgaagcaactgctac    167
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H05_synthesis    137 CTTCAACTGATTGTTGAATGGATATCAGATATGAATGAAGCAACTGCTAC    186
+
+H05_P1410456_    168 gttatta-gtccagatcattctttataggttggtataa-aa---aac-cc    211
+                     ||||||  |||||||||||||||||||||||||||| | ||   ||   |
+H05_synthesis    187 GTTATT-CGTCCAGATCATTCTTTATAGGTTGGTAT-AGAAGTCAA-G-C    232
+
+H05_P1410456_    212 c----c-a--------c-c--cn--cn-n-n-n-n-n-n-n---cn---c    230
+                          | |        | |  |   |                  |    |
+H05_synthesis    233 -AATACTATGAAGTAACACGTC-TAC-G-T-G-C-T-T-A-TATC-TGTC    271
+
+H05_P1410456_    231 n-n-n-n--cn-n-n-n-n-------------------------------    240
+                              |                                        
+H05_synthesis    272 -T-A-G-AAC-A-A-T-G-CAATAACTTCAAACAACCATATAGTTATTAT    312
+
+H05_P1410456_    240 --------    240
+                             
+H05_synthesis    313 ACCTTATC    320
+
+
+#---------------------------------------
+#---------------------------------------

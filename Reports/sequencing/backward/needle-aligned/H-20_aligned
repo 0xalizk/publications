@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H20_seq
+#    -bsequence individual/H20_syn
+#    -outfile aligned/H-20_aligned
+# Align_format: srspair
+# Report_file: aligned/H-20_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H20_P1410456_040.ab1sanger
+# 2: H20_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 339
+# Identity:     281/339 (82.9%)
+# Similarity:   281/339 (82.9%)
+# Gaps:          58/339 (17.1%)
+# Score: 1394.0
+# 
+#
+#=======================================
+
+H20_P1410456_      1 nnn-----t-t--tt-ttn-n-n-ag--g--------ggn-n-t-taag-     24
+                             | |  || ||       |  |        ||       ||| 
+H20_synthesis      1 ---GGACGTGTGCTTCTT-G-T-T-GATGAAACACAAGG-A-C-A-AAGA     39
+
+H20_P1410456_     25 a-gg-acacgaagga-ctttatgcagcatcaagaattgttgctagcatcc     71
+                     | || |||||||||| ||||||||||||||||||||||||||||||||||
+H20_synthesis     40 AAGGAACACGAAGGACCTTTATGCAGCATCAAGAATTGTTGCTAGCATCC     89
+
+H20_P1410456_     72 tgatagattacgtttcagcaacaccaaatggatgtaagcgtggtctcacc    121
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H20_synthesis     90 TGATAGATTACGTTTCAGCAACACCAAATGGATGTAAGCGTGGTCTCACC    139
+
+H20_P1410456_    122 aaatacgtcacctagaccatgcgtgcatgttatttcaaatcatgctattc    171
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H20_synthesis    140 AAATACGTCACCTAGACCATGCGTGCATGTTATTTCAAATCATGCTATTC    189
+
+H20_P1410456_    172 gtggcaattcgacctgatgtatatgaggtacatccgttccataacgtgtt    221
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H20_synthesis    190 GTGGCAATTCGACCTGATGTATATGAGGTACATCCGTTCCATAACGTGTT    239
+
+H20_P1410456_    222 ccataaa-aaag-ggtcagtccatctgtattccagtgaatagga-taaat    268
+                     |||| || |||  ||||||||||||||||||||||||||||||| |||| 
+H20_synthesis    240 CCAT-AATAAA-TGGTCAGTCCATCTGTATTCCAGTGAATAGGATTAAA-    286
+
+H20_P1410456_    269 ttctcacact-ttgg-ggtgcacatgcaaa-aa--ac--    300
+                     |||||||||  || | ||||||||||| |   |  ||  
+H20_synthesis    287 TTCTCACAC-GTT-GTGGTGCACATGC-A-G-AGTACCA    320
+
+
+#---------------------------------------
+#---------------------------------------

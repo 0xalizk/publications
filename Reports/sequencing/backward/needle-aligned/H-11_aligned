@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H11_seq
+#    -bsequence individual/H11_syn
+#    -outfile aligned/H-11_aligned
+# Align_format: srspair
+# Report_file: aligned/H-11_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H11_P1410456_073.ab1sanger
+# 2: H11_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 343
+# Identity:     277/343 (80.8%)
+# Similarity:   277/343 (80.8%)
+# Gaps:          66/343 (19.2%)
+# Score: 1374.0
+# 
+#
+#=======================================
+
+H11_P1410456_      1 nnn-------t----tt--tn-n-n-n-n-n-n-n-n--t---tat-t-c     22
+                               |    ||  |                   |   ||| | |
+H11_synthesis      1 ---GAGAGACTCACGTTCGT-A-G-C-A-C-A-A-G-TATTCGTATCTCC     38
+
+H11_P1410456_     23 -atac-t-gccg-atatc-gacaaccgattatattgcacaggtgatccac     67
+                      |||| | |||| ||||| |||||||||||||||||||||||||||||||
+H11_synthesis     39 AATACATTGCCGAATATCAGACAACCGATTATATTGCACAGGTGATCCAC     88
+
+H11_P1410456_     68 caaacctgcagaagttggtttagcctgcttgcatttactccaaccaagga    117
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H11_synthesis     89 CAAACCTGCAGAAGTTGGTTTAGCCTGCTTGCATTTACTCCAACCAAGGA    138
+
+H11_P1410456_    118 tagagaagaatctacaagcattccaagctatccaacatagcat-tctcat    166
+                     ||||||||||||||||||||||||||||||||||||||||||  ||||||
+H11_synthesis    139 TAGAGAAGAATCTACAAGCATTCCAAGCTATCCAACATAGCA-ATCTCAT    187
+
+H11_P1410456_    167 caagcaa-atttatcttaatctgttgactattctgtgaatttgagctgaa    215
+                     ||||| | ||||||||||||||||||||||||||||||||||||||||||
+H11_synthesis    188 CAAGC-AGATTTATCTTAATCTGTTGACTATTCTGTGAATTTGAGCTGAA    236
+
+H11_P1410456_    216 attgag-ggtcag-ggttatacttctgatgtgataacag-ggaac-ctaa    261
+                     |||||  |||||  ||||||||||||||||||||||||  ||||  ||||
+H11_synthesis    237 ATTGA-TGGTCA-TGGTTATACTTCTGATGTGATAACA-TGGAA-GCTAA    282
+
+H11_P1410456_    262 tctgagttg-ggtgttcaagtatatac-ctccaa-agc-agga    300
+                     ||||||||  ||||||||||||||||  |||| | ||| ||  
+H11_synthesis    283 TCTGAGTT-TGGTGTTCAAGTATATA-GCTCC-ATAGCAAG--    320
+
+
+#---------------------------------------
+#---------------------------------------

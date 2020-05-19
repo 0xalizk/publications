@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:30
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H34_seq
+#    -bsequence individual/H34_syn
+#    -outfile aligned/H-34_aligned
+# Align_format: srspair
+# Report_file: aligned/H-34_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H34_P1410456_054.ab1sanger
+# 2: H34_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 348
+# Identity:     272/348 (78.2%)
+# Similarity:   272/348 (78.2%)
+# Gaps:          76/348 (21.8%)
+# Score: 1356.0
+# 
+#
+#=======================================
+
+H34_P1410456_      1 nnnnnnnnnnnnnnnnn-------------------------------ga     19
+                                                                     ||
+H34_synthesis      1 -----------------TCGTCAAATCCATTCCATCGTTACCATCTCAGA     33
+
+H34_P1410456_     20 g-g-at-a-ctc-c-ctc-gaagactc-accctagt-aaaaccagaagta     60
+                     | | || | ||| | ||| |||||||| |||||||| |||||||||||||
+H34_synthesis     34 GTGGATAAACTCACACTCTGAAGACTCAACCCTAGTAAAAACCAGAAGTA     83
+
+H34_P1410456_     61 tcatgcacactgtcgacgaaattctacagcatcagctccttcacgttatg    110
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H34_synthesis     84 TCATGCACACTGTCGACGAAATTCTACAGCATCAGCTCCTTCACGTTATG    133
+
+H34_P1410456_    111 aaacaatggacaaacttcttcgtaacacagctaaagagcatcaatagaca    160
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+H34_synthesis    134 AAACAATGGACAAACTTCTTCGTAACACAGCTAAAGAGCATCAATAGAC-    182
+
+H34_P1410456_    161 a-aactctgaag-ggtttctataatagcagcttgtcttggagacgtataa    208
+                     | |||||||||  |||||||||||||||||||||||||||||||||||||
+H34_synthesis    183 ATAACTCTGAA-TGGTTTCTATAATAGCAGCTTGTCTTGGAGACGTATAA    231
+
+H34_P1410456_    209 agtgaacgattgttcgatcagcaagtcgtaataa-acaaacgtgaaccg-    256
+                     |||||||||||||||||||||||||||||||| | |||||||||||||  
+H34_synthesis    232 AGTGAACGATTGTTCGATCAGCAAGTCGTAAT-AGACAAACGTGAACC-A    279
+
+H34_P1410456_    257 ggttctatctgaaattatacg-ggaagagttgaaa-aattaaa-aaa-    300
+                     ||||||||||||||||||||  |||||||||| |  |||| |   |  
+H34_synthesis    280 GGTTCTATCTGAAATTATAC-TGGAAGAGTTG-A-GAATT-A-G-A-C    320
+
+
+#---------------------------------------
+#---------------------------------------

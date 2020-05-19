@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:16
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H33_seq
+#    -bsequence individual/H33_syn
+#    -outfile aligned/H-33_aligned
+# Align_format: srspair
+# Report_file: aligned/H-33_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H33_P1410456_075.ab1sanger
+# 2: H33_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 334
+# Identity:     285/334 (85.3%)
+# Similarity:   285/334 (85.3%)
+# Gaps:          48/334 (14.4%)
+# Score: 1413.0
+# 
+#
+#=======================================
+
+H33_P1410456_      1 ----nnaa-aan-n-n-n-n-n-n-n-n-n--t-t-g-g-t---t--t--     23
+                           || |                      | | | | |   |  |  
+H33_synthesis      1 CGTT-TAAGA--T-T-G-T-A-T-T-A-C-AATGTAGAGGTGACTCGTAG     38
+
+H33_P1410456_     24 -c-ttgg-a-ct-aactt-atcgagtgtgctttcacaaaccaatcattcg     67
+                      | |||| | || ||||| |||||||||||||||||||||||||||||||
+H33_synthesis     39 TCATTGGAAACTAAACTTAATCGAGTGTGCTTTCACAAACCAATCATTCG     88
+
+H33_P1410456_     68 tggttaccttgaacagcttaatcagctgttgttaggtttaccaacagtgt    117
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H33_synthesis     89 TGGTTACCTTGAACAGCTTAATCAGCTGTTGTTAGGTTTACCAACAGTGT    138
+
+H33_P1410456_    118 accttaaggtgcatcgtgctaaaagtctccatatagagctttgtgacagg    167
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H33_synthesis    139 ACCTTAAGGTGCATCGTGCTAAAAGTCTCCATATAGAGCTTTGTGACAGG    188
+
+H33_P1410456_    168 atcaagaatggtggaataagggagtcgttactagctactatggtgcattt    217
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H33_synthesis    189 ATCAAGAATGGTGGAATAAGGGAGTCGTTACTAGCTACTATGGTGCATTT    238
+
+H33_P1410456_    218 gattcatgtgctggagtccaatcattgtactccatcagctttgtatcaa-    266
+                     ||||||||||||||||||||||||||||||||||||||||||||||| | 
+H33_synthesis    239 GATTCATGTGCTGGAGTCCAATCATTGTACTCCATCAGCTTTGTATC-AG    287
+
+H33_P1410456_    267 aatccttcaggtttattaggaagtaggagtcaaa    300
+                     ||||||||||||||||||||||||||||||| ||
+H33_synthesis    288 AATCCTTCAGGTTTATTAGGAAGTAGGAGTC-AA    320
+
+
+#---------------------------------------
+#---------------------------------------

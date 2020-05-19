@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:15
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H09_seq
+#    -bsequence individual/H09_syn
+#    -outfile aligned/H-09_aligned
+# Align_format: srspair
+# Report_file: aligned/H-09_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H09_P1410456_079.ab1sanger
+# 2: H09_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 373
+# Identity:     247/373 (66.2%)
+# Similarity:   247/373 (66.2%)
+# Gaps:         126/373 (33.8%)
+# Score: 1233.0
+# 
+#
+#=======================================
+
+H09_P1410456_      1 nnnnnnnnnnnnnnn--------------------------------ttg     18
+                                                                    |||
+H09_synthesis      1 ---------------GATGCAAATGTCTTTACGAACCTAAAGAAGAGTTG     35
+
+H09_P1410456_     19 c-ga-c-aggtgttn--ggac-aggttacctcgtt-agatgaata-cacg     60
+                     | || | |||||||   |||| ||||||||||||| ||||||||| ||||
+H09_synthesis     36 CTGAGCTAGGTGTT-GTGGACTAGGTTACCTCGTTCAGATGAATACCACG     84
+
+H09_P1410456_     61 atcctcagatccccatagagtatcgtaagacctcaaagactgaatggacc    110
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H09_synthesis     85 ATCCTCAGATCCCCATAGAGTATCGTAAGACCTCAAAGACTGAATGGACC    134
+
+H09_P1410456_    111 tacttgagcaagatccagtaatatcaatct-ttgctgca-aaa-acctgt    157
+                     |||||||||||||||||||||||||||||  |||||||   || ||||||
+H09_synthesis    135 TACTTGAGCAAGATCCAGTAATATCAATC-GTTGCTGC-T-AAGACCTGT    181
+
+H09_P1410456_    158 ggtttag-ggtca-ag-ggatcat-tccaa-attc-ccc-c-cttttaa-    198
+                     ||||||  ||||  |  ||||||  ||| | |||   || | | ||| | 
+H09_synthesis    182 GGTTTA-TGGTC-GA-TGGATCA-ATCC-AGATT-T-CCACAC-TTT-AG    222
+
+H09_P1410456_    199 atatcaa-atcaaat-ttc-ctc-ctctgtaa-aacaa-at-tcca-aat    240
+                     ||||| | ||||||  ||  ||  |||||| | ||| | |  |||| || 
+H09_synthesis    223 ATATC-AGATCAAA-CTT-ACT-ACTCTGT-ATAAC-AGA-GTCCAGAA-    264
+
+H09_P1410456_    241 ttaac-cctc-ccc-c-ctcg-ggtaat-ttctcc-ccg-ggataaa-aa    281
+                     ||||  |||   |  | |||  |||||  |||| | ||  |||| |  ||
+H09_synthesis    265 TTAA-ACCT-A-C-ACACTC-AGGTAA-ATTCT-CTCC-TGGAT-A-GAA    304
+
+H09_P1410456_    282 -ac-gaaacccat-t-aaggacn    300
+                      || |||| | |  | |||    
+H09_synthesis    305 GACTGAAA-C-A-GTAAAG----    320
+
+
+#---------------------------------------
+#---------------------------------------

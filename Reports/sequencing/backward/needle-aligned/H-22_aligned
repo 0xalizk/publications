@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H22_seq
+#    -bsequence individual/H22_syn
+#    -outfile aligned/H-22_aligned
+# Align_format: srspair
+# Report_file: aligned/H-22_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H22_P1410456_056.ab1sanger
+# 2: H22_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 341
+# Identity:     278/341 (81.5%)
+# Similarity:   278/341 (81.5%)
+# Gaps:          62/341 (18.2%)
+# Score: 1384.0
+# 
+#
+#=======================================
+
+H22_P1410456_      1 nnnnnnnnnnnnnnnnn--------------------------------a     18
+                                                                      |
+H22_synthesis      1 -----------------TCTCGATACGATTCACGGTGGTTAAGTAAGCTA     33
+
+H22_P1410456_     19 ac-cg-gt-a-gat-an-t-aagct-tgttgtttgt-agtcgagactgtg     59
+                     || |  || | ||| |  | ||||| |||||||||| |||||||||||||
+H22_synthesis     34 ACAC-TGTAAGGATCA-GTGAAGCTATGTTGTTTGTAAGTCGAGACTGTG     81
+
+H22_P1410456_     60 gtgaagaagacttagtacactaactttcaaaagtagtgagagacaagcta    109
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H22_synthesis     82 GTGAAGAAGACTTAGTACACTAACTTTCAAAAGTAGTGAGAGACAAGCTA    131
+
+H22_P1410456_    110 tgctgcatatacaaggatgtgttccaggtctacacttgtggtagatcctt    159
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H22_synthesis    132 TGCTGCATATACAAGGATGTGTTCCAGGTCTACACTTGTGGTAGATCCTT    181
+
+H22_P1410456_    160 tatatgtgatgaaaggtagcaaatcactacgtctcatcttgtgatgcagt    209
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H22_synthesis    182 TATATGTGATGAAAGGTAGCAAATCACTACGTCTCATCTTGTGATGCAGT    231
+
+H22_P1410456_    210 aggttctgggaaagtcagacttctcgtagaagtagagtttaacatgacct    259
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H22_synthesis    232 AGGTTCTGGGAAAGTCAGACTTCTCGTAGAAGTAGAGTTTAACATGACCT    281
+
+H22_P1410456_    260 gtcaataggagacacgataacgtcaagctacaattccaaaa    300
+                     ||||||||||||||||||||||||||||||||||||| | .
+H22_synthesis    282 GTCAATAGGAGACACGATAACGTCAAGCTACAATTCC-A-T    320
+
+
+#---------------------------------------
+#---------------------------------------

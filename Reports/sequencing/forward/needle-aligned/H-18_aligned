@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:16
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H18_seq
+#    -bsequence individual/H18_syn
+#    -outfile aligned/H-18_aligned
+# Align_format: srspair
+# Report_file: aligned/H-18_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H18_P1410456_046.ab1sanger
+# 2: H18_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 350
+# Identity:     270/350 (77.1%)
+# Similarity:   270/350 (77.1%)
+# Gaps:          80/350 (22.9%)
+# Score: 1341.0
+# 
+#
+#=======================================
+
+H18_P1410456_      1 nnnnnnnnnnnnnnnnnnn---------------------g------g--     21
+                                                             |      |  
+H18_synthesis      1 -------------------TGCTTGTTATAGTGGTACTATGCTATCAGCA     31
+
+H18_P1410456_     22 -g-c-gta-gaga-cacacacatcgaaccaagtaatgtttcacttcctta     66
+                      | | ||| |||| ||||||||||||||||||||||||||||||||||||
+H18_synthesis     32 CGACTGTATGAGATCACACACATCGAACCAAGTAATGTTTCACTTCCTTA     81
+
+H18_P1410456_     67 gtcagctataacttcaagaaatgttctcaatttatgcttcacgaaatctc    116
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H18_synthesis     82 GTCAGCTATAACTTCAAGAAATGTTCTCAATTTATGCTTCACGAAATCTC    131
+
+H18_P1410456_    117 aattctacgatgtgacagaggaccattaggatcactggtgttgtgactga    166
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H18_synthesis    132 AATTCTACGATGTGACAGAGGACCATTAGGATCACTGGTGTTGTGACTGA    181
+
+H18_P1410456_    167 ttgaca-atgaacagataccttccaggaatca-aaataaggacgtgtttc    214
+                     |||||  ||||||||||||||||||||||||  |||||||||||||||||
+H18_synthesis    182 TTGAC-GATGAACAGATACCTTCCAGGAATC-GAAATAAGGACGTGTTTC    229
+
+H18_P1410456_    215 tccatccaaacataa-aatcac-ctat-tttgtaattcca-aa-acgtga    259
+                     ||||||||||||| | |||||  |||  |||||||||||   | ||||||
+H18_synthesis    230 TCCATCCAAACAT-AGAATCA-GCTA-GTTTGTAATTCC-T-AGACGTGA    274
+
+H18_P1410456_    260 agcatcg-aacctatgcatatctctatgtca-a-gatctc-c-a-ac---    300
+                     ||||||| || |||||||||||||||||||    |||||  | | ||   
+H18_synthesis    275 AGCATCGTAA-CTATGCATATCTCTATGTC-T-GGATCT-TCTACACAAA    320
+
+
+#---------------------------------------
+#---------------------------------------

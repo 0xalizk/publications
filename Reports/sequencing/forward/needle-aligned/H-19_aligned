@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:16
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H19_seq
+#    -bsequence individual/H19_syn
+#    -outfile aligned/H-19_aligned
+# Align_format: srspair
+# Report_file: aligned/H-19_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H19_P1410456_061.ab1sanger
+# 2: H19_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 345
+# Identity:     275/345 (79.7%)
+# Similarity:   275/345 (79.7%)
+# Gaps:          70/345 (20.3%)
+# Score: 1362.0
+# 
+#
+#=======================================
+
+H19_P1410456_      1 nnnnnnnnnnnnnnn-------------------------t-----t--a     18
+                                                             |     |  |
+H19_synthesis      1 ---------------AATTTCTGCACAGTCAGGTTTACAGTAGAAATCAA     35
+
+H19_P1410456_     19 t-gtc--ct-ctc-tgct-gagtac-tct-agttagagcttc-attcata     59
+                     | |||  || ||| |||| |||||| ||| |||||||||||| |||||||
+H19_synthesis     36 TCGTCATCTCCTCTTGCTAGAGTACATCTAAGTTAGAGCTTCAATTCATA     85
+
+H19_P1410456_     60 gctggacaacaatgtgtaagaaattcaatctttacaggatggttaggtag    109
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H19_synthesis     86 GCTGGACAACAATGTGTAAGAAATTCAATCTTTACAGGATGGTTAGGTAG    135
+
+H19_P1410456_    110 taaagagtcatacactattgcagaatagtggaaagtggttaagttctcga    159
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H19_synthesis    136 TAAAGAGTCATACACTATTGCAGAATAGTGGAAAGTGGTTAAGTTCTCGA    185
+
+H19_P1410456_    160 ccaacgatcttaccactgaactgatggactacacgtcaaatgactgacaa    209
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H19_synthesis    186 CCAACGATCTTACCACTGAACTGATGGACTACACGTCAAATGACTGACAA    235
+
+H19_P1410456_    210 cagttaacacattcaa-ataaccgttgactgagtaaggtacaacctttgc    258
+                     |||||||||||||| | |||||||||||||||||||||||||||||||||
+H19_synthesis    236 CAGTTAACACATTC-AGATAACCGTTGACTGAGTAAGGTACAACCTTTGC    284
+
+H19_P1410456_    259 agttattctcagtcgtctaattcctcattca-aca-a-aaaaann    300
+                     ||||||||||||||||||||||||||||||  ||  |        
+H19_synthesis    285 AGTTATTCTCAGTCGTCTAATTCCTCATTC-GAC-TAT-------    320
+
+
+#---------------------------------------
+#---------------------------------------

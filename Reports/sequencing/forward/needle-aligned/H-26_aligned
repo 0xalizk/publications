@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:16
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H26_seq
+#    -bsequence individual/H26_syn
+#    -outfile aligned/H-26_aligned
+# Align_format: srspair
+# Report_file: aligned/H-26_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H26_P1410456_012.ab1sanger
+# 2: H26_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 357
+# Identity:     263/357 (73.7%)
+# Similarity:   263/357 (73.7%)
+# Gaps:          94/357 (26.3%)
+# Score: 1301.0
+# 
+#
+#=======================================
+
+H26_P1410456_      1 nnccgg-------g-----gn-n-n-n-n-n-n-n-n-n-n-n-n-n-n-     23
+                                  |     |                              
+H26_synthesis      1 ------TTTATTAGTTTATG-T-A-T-C-A-T-A-T-A-G-T-C-T-G-A     29
+
+H26_P1410456_     24 n-nc----ctt--c-at-gaggcta-cga-gaggagtgtta-gtatcatc     61
+                        |    |||  | || ||||||| ||| ||||||||||| ||||||||
+H26_synthesis     30 -A-CATAGCTTAACAATAGAGGCTATCGACGAGGAGTGTTAGGTATCATC     77
+
+H26_P1410456_     62 atacctgtacttcagtgataattggaactatgatcaattcttccaatagc    111
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H26_synthesis     78 ATACCTGTACTTCAGTGATAATTGGAACTATGATCAATTCTTCCAATAGC    127
+
+H26_P1410456_    112 tataggtgtaagtacaagttccatcttggtcttttca-aggtaa-acact    159
+                     ||||||||||||||||||||||||||||||||||||  |||| | |||||
+H26_synthesis    128 TATAGGTGTAAGTACAAGTTCCATCTTGGTCTTTTC-GAGGT-AGACACT    175
+
+H26_P1410456_    160 caggtcgtgtgcaggacagtaatcactcaccaggagactcttgcaggaat    209
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H26_synthesis    176 CAGGTCGTGTGCAGGACAGTAATCACTCACCAGGAGACTCTTGCAGGAAT    225
+
+H26_P1410456_    210 caacgtaaa-attcaaactgtagtgttca-acatct-taaattaa-atca    255
+                     |||||| || ||||||||||||||||||  |||||  |||||| | ||||
+H26_synthesis    226 CAACGT-AAGATTCAAACTGTAGTGTTC-GACATC-GTAAATT-AGATCA    271
+
+H26_P1410456_    256 c-ca-ataa-ataactgctgcat-tacac-ctctg-gagca-a-ttaa--    295
+                       |  || | ||||||||||||  ||||  ||||  ||||  | || |  
+H26_synthesis    272 -GC-GAT-AGATAACTGCTGCA-GTACA-GCTCT-TGAGC-TAGTT-AGT    313
+
+H26_P1410456_    296 aa-aac-    300
+                     || ||| 
+H26_synthesis    314 AACAACG    320
+
+
+#---------------------------------------
+#---------------------------------------

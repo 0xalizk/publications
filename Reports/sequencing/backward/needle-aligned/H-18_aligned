@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:29
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H18_seq
+#    -bsequence individual/H18_syn
+#    -outfile aligned/H-18_aligned
+# Align_format: srspair
+# Report_file: aligned/H-18_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H18_P1410456_024.ab1sanger
+# 2: H18_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 334
+# Identity:     286/334 (85.6%)
+# Similarity:   286/334 (85.6%)
+# Gaps:          48/334 (14.4%)
+# Score: 1412.0
+# 
+#
+#=======================================
+
+H18_P1410456_      1 nnttt-t-tn-n-n-n-n-n-n-n-n-a---at-g---ta--c---g--a     25
+                       ||| | |                  |   || |   ||  |   |  |
+H18_synthesis      1 --TTTGTGT-A-G-A-A-G-A-T-C-CAGACATAGAGATATGCATAGTTA     39
+
+H18_P1410456_     26 -g---c-tc-cgtctagg-a-tac-aactagctgattctatgtttggatg     66
+                      |   | || |||||||| | ||| |||||||||||||||||||||||||
+H18_synthesis     40 CGATGCTTCACGTCTAGGAATTACAAACTAGCTGATTCTATGTTTGGATG     89
+
+H18_P1410456_     67 gagaaacacgtccttatttcgattcctggaaggtatctgttcatcgtcaa    116
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H18_synthesis     90 GAGAAACACGTCCTTATTTCGATTCCTGGAAGGTATCTGTTCATCGTCAA    139
+
+H18_P1410456_    117 tcagtcacaacaccagtgatcctaatggtcctctgtcacatcgtagaatt    166
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H18_synthesis    140 TCAGTCACAACACCAGTGATCCTAATGGTCCTCTGTCACATCGTAGAATT    189
+
+H18_P1410456_    167 gagatttcgtgaagcataaattgagaacatttcttgaagttatagctgac    216
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H18_synthesis    190 GAGATTTCGTGAAGCATAAATTGAGAACATTTCTTGAAGTTATAGCTGAC    239
+
+H18_P1410456_    217 taaggaagtgaaacattacttggttcgatgtgtgtgatctcatacagtcg    266
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H18_synthesis    240 TAAGGAAGTGAAACATTACTTGGTTCGATGTGTGTGATCTCATACAGTCG    289
+
+H18_P1410456_    267 tgctgatagcatagtaccactataacaagcaaan    300
+                     |||||||||||||||||||||||||||||||   
+H18_synthesis    290 TGCTGATAGCATAGTACCACTATAACAAGCA---    320
+
+
+#---------------------------------------
+#---------------------------------------

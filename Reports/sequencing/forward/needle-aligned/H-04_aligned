@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:15
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H04_seq
+#    -bsequence individual/H04_syn
+#    -outfile aligned/H-04_aligned
+# Align_format: srspair
+# Report_file: aligned/H-04_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H04_P1410456_032.ab1sanger
+# 2: H04_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 349
+# Identity:     271/349 (77.7%)
+# Similarity:   271/349 (77.7%)
+# Gaps:          78/349 (22.3%)
+# Score: 1339.0
+# 
+#
+#=======================================
+
+H04_P1410456_      1 nng--g--gg------ggn-n-n-n-n-n-n-n-n-n-n-n-n-na--ag     25
+                       |  |  ||      ||                           |  ||
+H04_synthesis      1 --GATGCTGGTTACTTGG-A-A-G-A-T-G-T-G-T-A-C-T-A-ATTAG     34
+
+H04_P1410456_     26 -g-aga-ca-a-c-gtacgttcc-ac-aaacttcacagctcgtatat-at     66
+                      | ||| || | | ||||||||| || |||||||||||||||||||| ||
+H04_synthesis     35 AGAAGACCATATCTGTACGTTCCTACTAAACTTCACAGCTCGTATATAAT     84
+
+H04_P1410456_     67 gagtgaagataataggtggtcatccatcatgaacagagctttcacttaac    116
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H04_synthesis     85 GAGTGAAGATAATAGGTGGTCATCCATCATGAACAGAGCTTTCACTTAAC    134
+
+H04_P1410456_    117 atccagctcctggtcagcacaattagaatttggaattatgaca-aaacct    165
+                     ||||||||||||||||||||||||||||||||||||||||||  ||||||
+H04_synthesis    135 ATCCAGCTCCTGGTCAGCACAATTAGAATTTGGAATTATGAC-GAAACCT    183
+
+H04_P1410456_    166 tgtatgtgtgaaataatagaagagtaatatccagaggagcaa-aatttgc    214
+                     |||||||||||||||||||||||||||||||||||||||| | |||||||
+H04_synthesis    184 TGTATGTGTGAAATAATAGAAGAGTAATATCCAGAGGAGC-AGAATTTGC    232
+
+H04_P1410456_    215 tcgttcttcaaccacctttcgg-gctttcaacacctctcta-aaaaa-a-    260
+                     |||||||||||||||||||| | |||||||||||||||||   | |  | 
+H04_synthesis    233 TCGTTCTTCAACCACCTTTC-GTGCTTTCAACACCTCTCT-C-A-A-TAT    277
+
+H04_P1410456_    261 aa-atttaagtcg-gg-gctctat-tatgttta-aacaca-ac-cac--    300
+                     || |||||||||   | ||||||  |||||||  |||||  |  |||  
+H04_synthesis    278 AAGATTTAAGTC-T-GTGCTCTA-GTATGTTT-TAACAC-GA-GCACTA    320
+
+
+#---------------------------------------
+#---------------------------------------

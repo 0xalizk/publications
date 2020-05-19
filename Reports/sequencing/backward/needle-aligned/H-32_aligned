@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:30
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H32_seq
+#    -bsequence individual/H32_syn
+#    -outfile aligned/H-32_aligned
+# Align_format: srspair
+# Report_file: aligned/H-32_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H32_P1410456_038.ab1sanger
+# 2: H32_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 338
+# Identity:     282/338 (83.4%)
+# Similarity:   282/338 (83.4%)
+# Gaps:          56/338 (16.6%)
+# Score: 1398.0
+# 
+#
+#=======================================
+
+H32_P1410456_      1 nnt---t--t--t-c--cn-n-n-n-g-g----ggc---c-c-ctc-cgt     25
+                           |  |  | |  |          |    ||    | | ||| |||
+H32_synthesis      1 ---AGATAGTCATGCAGC-T-C-T-A-AGCAAAGG-AATCGCTCTCTCGT     41
+
+H32_P1410456_     26 cg-ggaa-atga-gtct-agacgactgactgctaacattgacgtgagcag     71
+                     || |||| |||| |||| ||||||||||||||||||||||||||||||||
+H32_synthesis     42 CGTGGAAGATGAGGTCTAAGACGACTGACTGCTAACATTGACGTGAGCAG     91
+
+H32_P1410456_     72 acaagcctagttgcatagctctaacttcctctttcattatcgagctgagt    121
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H32_synthesis     92 ACAAGCCTAGTTGCATAGCTCTAACTTCCTCTTTCATTATCGAGCTGAGT    141
+
+H32_P1410456_    122 attgaaactgtcattattgtctgagatacagtatgacacagtgctcctac    171
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+H32_synthesis    142 ATTGAAACTGTCATTATTGTCTGAGATACAGTATGACACAGTGCTCCTAC    191
+
+H32_P1410456_    172 a-agtgtcgatgtcgtagtgattaggtaagcatatagtaatctatact-t    219
+                       |||||||||||||||||||||||||||||||||||||||||||||  |
+H32_synthesis    192 -GAGTGTCGATGTCGTAGTGATTAGGTAAGCATATAGTAATCTATAC-AT    239
+
+H32_P1410456_    220 tgcaaacaaagtatctcatacctagaaacgaca-ata-aacatt-tttgc    266
+                     ||||||||||||||||||||||||||||||||  ||  |||| | |||||
+H32_synthesis    240 TGCAAACAAAGTATCTCATACCTAGAAACGAC-GAT-CAACA-TATTTGC    286
+
+H32_P1410456_    267 tgtcttactaca-agtatcatcgtcg-gtcctca-a-g    300
+                     |||||||||||  ||||||||||||  ||||||    |
+H32_synthesis    287 TGTCTTACTAC-GAGTATCATCGTC-TGTCCTC-T-CG    320
+
+
+#---------------------------------------
+#---------------------------------------

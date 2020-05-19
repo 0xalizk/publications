@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Oct 2014 16:26:15
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H05_seq
+#    -bsequence individual/H05_syn
+#    -outfile aligned/H-05_aligned
+# Align_format: srspair
+# Report_file: aligned/H-05_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H05_P1410456_047.ab1sanger
+# 2: H05_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 429
+# Identity:     191/429 (44.5%)
+# Similarity:   191/429 (44.5%)
+# Gaps:         238/429 (55.5%)
+# Score: 925.0
+# 
+#
+#=======================================
+
+H05_P1410456_      1 nnnnnnnnnnnnnnnn---------------------g---g---g--gt     21
+                                                          |   |   |  ||
+H05_synthesis      1 ----------------GATAAGGTATAATAACTATATGGTTGTTTGAAGT     34
+
+H05_P1410456_     22 --t-gc-tc--t-cg-agtac-gatcat-agccactg-a-ac-tgc-tac     57
+                       | || |   | |  || || ||| || || ||| | | || ||  |||
+H05_synthesis     35 TATTGCAT-TGTTC-TAG-ACAGAT-ATAAG-CAC-GTAGACGTG-TTAC     77
+
+H05_P1410456_     58 tgt-at-gtagtc-gg-tgtggaactc-c-a-acccacag--tg-gtg-t     96
+                     | | || ||| |   | | | | |||  | | | ||| |   |   |   
+H05_synthesis     78 T-TCATAGTA-T-T-GCT-T-G-ACT-TCTATA-CCA-A-CCT-A-T-A-    112
+
+H05_P1410456_     97 --gaat-ac-ccc-gga-gat-ttat-t-gtg-gt-gaa-a-atga-a-t    131
+                       |||| |   |  ||| ||   ||    ||  |   |     ||    |
+H05_synthesis    113 AAGAATGA-T-C-TGGACGA-A-TA-A-CGT-AG-C-A-G-T-TG-C-TT    147
+
+H05_P1410456_    132 c-tgtcgga-atg--gataaggctcc-t-c--cat-t--gttgc-tttat    169
+                     | | ||  | ||   ||| |   ||| | |  ||  |  ||||     | 
+H05_synthesis    148 CAT-TC--ATAT-CTGAT-A---TCCATTCAACA-ATCAGTTG-A---A-    183
+
+H05_P1410456_    170 -tct-ct--g-aaa--a-tgctgc-tgaat-g-tgtaggtg-tg---gaa    204
+                      | | |   | |||  | || ||  ||||    || | ||  ||   |||
+H05_synthesis    184 GT-TGC-AGGTAAATTAGTG-TG-GTGAA-A-ATG-A-GT-CTGTCAGAA    224
+
+H05_P1410456_    205 c--gac-aaca-ca-aag-tg-g-gg-tg--g-a--ac-c-ctaaca-ga    237
+                        ||  || | |   |  |     | ||  | |  |    ||  |    
+H05_synthesis    225 -TGGA-TAA-AGC-T-A-CT-C-C-GTTGTTGCATTA-T-TCT--C-T--    258
+
+H05_P1410456_    238 ggaac-tggctc-cg-ga-ag-g-ga-acggtgtggtaca-acaacc-ca    278
+                     | ||| | |||  |  |  |  | |  | ||||||||||  |||| | ||
+H05_synthesis    259 G-AACAT-GCT-AC-TG-TA-TGTG-TA-GGTGTGGTAC-GACAA-CACA    298
+
+H05_P1410456_    279 ag-gtggtgg-ggac-c-ccc-caaa-a-    300
+                     |  ||||| | |||     || | |  | 
+H05_synthesis    299 A-AGTGGT-GTGGA-T-A-CCTC-A-CAG    320
+
+
+#---------------------------------------
+#---------------------------------------

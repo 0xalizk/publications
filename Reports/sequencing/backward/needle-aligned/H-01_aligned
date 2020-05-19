@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Oct 2014 01:54:28
+# Commandline: needle
+#    -gapopen 0
+#    -gapextend 2
+#    -asequence individual/H01_seq
+#    -bsequence individual/H01_syn
+#    -outfile aligned/H-01_aligned
+# Align_format: srspair
+# Report_file: aligned/H-01_aligned
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: H01_P1410456_091.ab1sanger
+# 2: H01_synthesis
+# Matrix: EDNAFULL
+# Gap_penalty: 0.0
+# Extend_penalty: 2.0
+#
+# Length: 360
+# Identity:     260/360 (72.2%)
+# Similarity:   260/360 (72.2%)
+# Gaps:         100/360 (27.8%)
+# Score: 1292.0
+# 
+#
+#=======================================
+
+H01_P1410456_      1 nnn--------ggtg--ttttn-n-n-n-n-n-n-n-n-c---c-----t     23
+                                |||   |                         |     |
+H01_synthesis      1 ---TTACTAAAGGT-CCT----A-A-G-A-A-G-A-A-A-GATCAGAGGT     33
+
+H01_P1410456_     24 -agg-gat-gacgt-c-c-acgna-tacctggttc-gtcatacttgtttg     65
+                      ||| ||| ||| | | | ||| | ||||| |||| ||||||||||||||
+H01_synthesis     34 GAGGTGATAGAC-TGCACTACG-ATTACCT-GTTCAGTCATACTTGTTTG     80
+
+H01_P1410456_     66 tcg-acc-aatggcttaataaattaaaataagcacctatacttaag-cgt    112
+                     ||  | | ||||| |||||||||||||||||| ||||||||||||  | |
+H01_synthesis     81 TC-TA-CGAATGG-TTAATAAATTAAAATAAG-ACCTATACTTAA-AC-T    124
+
+H01_P1410456_    113 ttgatataaataatcg-gtagca-caactatttgtcagatgtttctaa-a    159
+                     ||| |||||||||||  |||||  |||||||||||||||||||||| | |
+H01_synthesis    125 TTG-TATAAATAATC-AGTAGC-TCAACTATTTGTCAGATGTTTCT-AGA    170
+
+H01_P1410456_    160 ctttgcacgaaccg-ggagaagta-ca-aataaacaatgagcaag-gcac    205
+                     |||||||||||||   |||||||  |  ||||||||||||||||  ||||
+H01_synthesis    171 CTTTGCACGAACC-A-GAGAAGT-GC-GAATAAACAATGAGCAA-TGCAC    215
+
+H01_P1410456_    206 gattatgaattagtaaagatttctctattagtcg-gttaatagaaataaa    254
+                     |||||||||||||||||||||||||||||||||  |||||||||||||||
+H01_synthesis    216 GATTATGAATTAGTAAAGATTTCTCTATTAGTC-TGTTAATAGAAATAAA    264
+
+H01_P1410456_    255 gttacaaactac-ctctatctacgatg-gtaca-ataact-tctttga-t    299
+                     |||||||||||  |||||||||||||  ||||  |||||  ||||||| |
+H01_synthesis    265 GTTACAAACTA-ACTCTATCTACGAT-TGTAC-GATAAC-ATCTTTGATT    310
+
+H01_P1410456_    300 g---------    300
+                     |         
+H01_synthesis    311 GGTCTATACT    320
+
+
+#---------------------------------------
+#---------------------------------------
