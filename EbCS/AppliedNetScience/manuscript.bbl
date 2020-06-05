@@ -1,0 +1,283 @@
+\begin{thebibliography}{10}
+
+\bibitem{rolland_proteome-scale_2014}
+Rolland T, Taşan M, Charloteaux B, Pevzner SJ, Zhong Q, Sahni N, et~al.
+\newblock A proteome-scale map of the human interactome network.
+\newblock Cell. 2014;159(5):1212--1226.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0092867414014226}.
+
+\bibitem{yang_widespread_2016}
+Yang X, Coulombe-Huntington J, Kang S, Sheynkman G, Hao T, Richardson A, et~al.
+\newblock Widespread {Expansion} of {Protein} {Interaction} {Capabilities} by
+  {Alternative} {Splicing}.
+\newblock Cell. 2016 Feb;164(4):805--817.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0092867416300435}.
+
+\bibitem{barabasi_emergence_1999}
+Barabási AL, Albert R.
+\newblock Emergence of {Scaling} in {Random} {Networks}.
+\newblock Science. 1999 Oct;286(5439):509--512.
+\newblock Available from: \url{http://www.sciencemag.org/content/286/5439/509}.
+
+\bibitem{fell_small_2000}
+Fell DA, Wagner A.
+\newblock The small world of metabolism.
+\newblock Nature Biotechnology. 2000 Nov;18(11):1121--1122.
+\newblock Available from:
+  \url{http://www.nature.com/nbt/journal/v18/n11/full/nbt1100_1121.html}.
+
+\bibitem{arita_metabolic_2004}
+Arita M.
+\newblock The metabolic world of {Escherichia} coli is not small.
+\newblock Proceedings of the National Academy of Sciences of the United States
+  of America. 2004;101(6):1543--1547.
+\newblock Available from: \url{http://www.pnas.org/content/101/6/1543.short}.
+
+\bibitem{tanaka_protein_2005}
+Tanaka R, Yi TM, Doyle J.
+\newblock Some protein interaction data do not exhibit power law statistics.
+\newblock FEBS letters. 2005;579(23):5140--5144.
+\newblock Available from:
+  \url{http://onlinelibrary.wiley.com/doi/10.1016/j.febslet.2005.08.024/full}.
+
+\bibitem{fox_keller_revisiting_2005}
+Fox~Keller E.
+\newblock Revisiting “scale-free” networks.
+\newblock BioEssays. 2005;27(10):1060--1068.
+\newblock Available from:
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/bies.20294/full}.
+
+\bibitem{khanin_how_2006}
+Khanin R, Wit E.
+\newblock How scale-free are biological networks.
+\newblock Journal of computational biology. 2006;13(3):810--818.
+\newblock Available from:
+  \url{http://online.liebertpub.com/doi/abs/10.1089/cmb.2006.13.810}.
+
+\bibitem{stelling_robustness_2004}
+Stelling J, Sauer U, Szallasi Z, Doyle FJ, Doyle J.
+\newblock Robustness of cellular functions.
+\newblock Cell. 2004;118(6):675--685.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0092867404008402}.
+
+\bibitem{hahn_molecular_2004}
+Hahn MW, Conant GC, Wagner A.
+\newblock Molecular {Evolution} in {Large} {Genetic} {Networks}: {Does}
+  {Connectivity} {Equal} {Constraint}?
+\newblock Journal of Molecular Evolution. 2004 Feb;58(2):203--211.
+\newblock Available from:
+  \url{https://link.springer.com/article/10.1007/s00239-003-2544-0}.
+
+\bibitem{albert_error_2000}
+Albert R, Jeong H, Barabasi AL.
+\newblock Error and attack tolerance of complex networks : {Article} :
+  {Nature}.
+\newblock Nature. 2000 Jul;406(6794):378--382.
+\newblock Available from:
+  \url{http://www.nature.com/nature/journal/v406/n6794/full/406378a0.html}.
+
+\bibitem{barabasi_network_2004}
+Barabási AL, Oltvai ZN.
+\newblock Network biology: understanding the cell's functional organization.
+\newblock Nature Reviews Genetics. 2004 Feb;5(2):101--113.
+\newblock Available from:
+  \url{http://www.nature.com/nrg/journal/v5/n2/full/nrg1272.html}.
+
+\bibitem{stumpf_critical_2012}
+Stumpf MPH, Porter MA.
+\newblock Critical {Truths} {About} {Power} {Laws}.
+\newblock Science. 2012 Feb;335(6069):665--666.
+\newblock Available from:
+  \url{http://science.sciencemag.org/content/335/6069/665}.
+
+\bibitem{alderson_contrasting_2010}
+Alderson DL, Doyle JC.
+\newblock Contrasting views of complexity and their implications for
+  network-centric infrastructures.
+\newblock IEEE Transactions on systems, man, and cybernetics-Part A: Systems
+  and humans. 2010;40(4):839--852.
+\newblock Available from:
+  \url{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5477188}.
+
+\bibitem{papp_critical_2009}
+Papp B, Teusink B, Notebaart RA.
+\newblock A critical view of metabolic network adaptations.
+\newblock HFSP journal. 2009;3(1):24--35.
+\newblock Available from:
+  \url{http://www.tandfonline.com/doi/abs/10.2976/1.3020599}.
+
+\bibitem{lynch_evolution_2007}
+Lynch M.
+\newblock The evolution of genetic networks by non-adaptive processes.
+\newblock Nature Reviews Genetics. 2007 Oct;8(10):803--813.
+\newblock Available from:
+  \url{http://www.nature.com/nrg/journal/v8/n10/full/nrg2192.html}.
+
+\bibitem{sorrells_making_2015}
+Sorrells T, Johnson A.
+\newblock Making {Sense} of {Transcription} {Networks}.
+\newblock Cell. 2015 May;161(4):714--723.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0092867415004316}.
+
+\bibitem{aaronson_limits_2004}
+Aaronson S.
+\newblock Limits on efficient computation in the physical world.
+\newblock arXiv preprint quant-ph/0412143. 2004;Available from:
+  \url{https://arxiv.org/abs/quant-ph/0412143}.
+
+\bibitem{aaronson_guest_2005}
+Aaronson S.
+\newblock Guest column: {NP}-complete problems and physical reality.
+\newblock ACM Sigact News. 2005;36(1):30--52.
+\newblock Available from: \url{http://dl.acm.org/citation.cfm?id=1052804}.
+
+\bibitem{fortnow_status_2009}
+Fortnow L.
+\newblock The status of the {P} versus {NP} problem.
+\newblock Communications of the ACM. 2009;52(9):78--86.
+\newblock Available from: \url{http://dl.acm.org/citation.cfm?id=1562186}.
+
+\bibitem{wigderson_opening_2014}
+Wigderson A. Opening {Remarks} and {Introduction} of {Biology} {Session}.
+\newblock IAS Princeton; 2014.
+\newblock Available from:
+  \url{https://video.ias.edu/computationconference/2014/1122-LeslieValiant}.
+
+\bibitem{vazirani_approximation_2013}
+Vazirani VV.
+\newblock Approximation algorithms.
+\newblock Springer Science \& Business Media; 2013.
+
+\bibitem{lawler_fast_1979}
+Lawler EL.
+\newblock Fast approximation algorithms for knapsack problems.
+\newblock Mathematics of Operations Research. 1979;4(4):339--356.
+\newblock Bibtex: lawler\_fast\_1979-1.
+\newblock Available from:
+  \url{http://pubsonline.informs.org/doi/abs/10.1287/moor.4.4.339}.
+
+\bibitem{carvunis_proto-genes_2012}
+Carvunis AR, Rolland T, Wapinski I, Calderwood MA, Yildirim MA, Simonis N,
+  et~al.
+\newblock Proto-genes and de novo gene birth.
+\newblock Nature. 2012 Jul;487(7407):370--374.
+\newblock Available from:
+  \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3401362/}.
+
+\bibitem{vinayagam_integrating_2014}
+Vinayagam A, Zirin J, Roesel C, Hu Y, Yilmazel B, Samsonova AA, et~al.
+\newblock Integrating protein-protein interaction networks with phenotypes
+  reveals signs of interactions.
+\newblock Nature methods. 2014;11(1):94--99.
+\newblock Available from:
+  \url{http://www.nature.com/nmeth/journal/v11/n1/abs/nmeth.2733.html}.
+
+\bibitem{pisinger_core_1999-1}
+Pisinger D.
+\newblock Core problems in knapsack algorithms.
+\newblock Operations Research. 1999;47(4):570--575.
+\newblock Available from:
+  \url{http://pubsonline.informs.org/doi/abs/10.1287/opre.47.4.570}.
+
+\bibitem{pisinger_where_2005}
+Pisinger D.
+\newblock Where are the hard knapsack problems?
+\newblock Computers \& Operations Research. 2005;32(9):2271--2284.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S030505480400036X}.
+
+\bibitem{costanzo_global_2016}
+Costanzo M, VanderSluis B, Koch EN, Baryshnikova A, Pons C, Tan G, et~al.
+\newblock A global genetic interaction network maps a wiring diagram of
+  cellular function.
+\newblock Science. 2016 Sep;353(6306):aaf1420.
+\newblock Available from:
+  \url{http://science.sciencemag.org/content/353/6306/aaf1420}.
+
+\bibitem{atiia_computational_2017-1}
+Atiia A, Hopper C, Waldispühl J.
+\newblock Computational {Intractability} {Generates} the {Topology} of
+  {Biological} {Networks}.
+\newblock In: Proceedings of the 8th {ACM} {International} {Conference} on
+  {Bioinformatics}, {Computational} {Biology}, and {Health} {Informatics}. ACM;
+  2017. p. 500--509.
+\newblock Available from: \url{http://dl.acm.org/citation.cfm?id=3107453}.
+
+\bibitem{livnat_analytical_2011}
+Livnat A, Papadimitriou C, Feldman MW.
+\newblock An analytical contrast between fitness maximization and selection for
+  mixability.
+\newblock Journal of Theoretical Biology. 2011 Mar;273(1):232--234.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S002251931000634X}.
+
+\bibitem{chastain_algorithms_2014}
+Chastain E, Livnat A, Papadimitriou C, Vazirani U.
+\newblock Algorithms, games, and evolution.
+\newblock Proceedings of the National Academy of Sciences. 2014
+  Jul;111(29):10620--10623.
+\newblock Available from: \url{http://www.pnas.org/content/111/29/10620}.
+
+\bibitem{livnat_sex_2016}
+Livnat A, Papadimitriou C.
+\newblock Sex as an algorithm: the theory of evolution under the lens of
+  computation.
+\newblock Communications of the ACM. 2016;59(11):84--93.
+\newblock Available from: \url{http://dl.acm.org/citation.cfm?id=2934662}.
+
+\bibitem{brenner_turing_2012}
+Brenner S.
+\newblock Turing centenary: {Life}'s code script.
+\newblock Nature. 2012;482(7386):461--461.
+\newblock Available from:
+  \url{http://www.nature.com/nature/journal/v482/n7386/full/482461a.html}.
+
+\bibitem{gerstein_architecture_2012}
+Gerstein MB, Kundaje A, Hariharan M, Landt SG, Yan KK, Cheng C, et~al.
+\newblock Architecture of the human regulatory network derived from {ENCODE}
+  data.
+\newblock Nature. 2012 Sep;489(7414):91--100.
+\newblock Available from:
+  \url{https://www.nature.com/nature/journal/v489/n7414/full/nature11245.html}.
+
+\bibitem{han_trrust:_2015}
+Han H, Shim H, Shin D, Shim JE, Ko Y, Shin J, et~al.
+\newblock {TRRUST}: a reference database of human transcriptional regulatory
+  interactions.
+\newblock Scientific reports. 2015;5.
+\newblock Available from:
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4464350/}.
+
+\bibitem{khurana_interpretation_2013}
+Khurana E, Fu Y, Chen J, Gerstein M.
+\newblock Interpretation of {Genomic} {Variants} {Using} a {Unified}
+  {Biological} {Network} {Approach}.
+\newblock PLOS Computational Biology. 2013 Mar;9(3):e1002886.
+\newblock Available from:
+  \url{http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002886}.
+
+\bibitem{kim_positive_2007}
+Kim PM, Korbel JO, Gerstein MB.
+\newblock Positive selection at the protein network periphery: {Evaluation} in
+  terms of structural constraints and cellular context.
+\newblock Proceedings of the National Academy of Sciences. 2007
+  Dec;104(51):20274--20279.
+\newblock Available from: \url{http://www.pnas.org/content/104/51/20274}.
+
+\bibitem{mitra_integrative_2013}
+Mitra K, Carvunis AR, Ramesh SK, Ideker T.
+\newblock Integrative approaches for finding modular structure in biological
+  networks.
+\newblock Nature Reviews Genetics. 2013 Oct;14(10):719--732.
+\newblock Available from: \url{https://www.nature.com/articles/nrg3552}.
+
+\bibitem{atiia_case-study_2017}
+Atiia A. Case-{Study} {Biolgical} {Networks}
+  https://github.com/aliatiia/KenanDB; 2017.
+\newblock Available from: \url{https://github.com/aliatiia/KenanDB}.
+
+\end{thebibliography}
